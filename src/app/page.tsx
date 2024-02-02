@@ -1,113 +1,155 @@
 import Image from "next/image";
+import logoWide from "./images/logo/Logo 1.jpg";
+import logo from "./images/logo/Logo 2.jpg";
+import uniqueAdventure from './images/unique adventure.png';
+import manifestorRelationships from './images/Manifestor  relationships-12.png';
+import manifestorAuthorities from './images/the different mani-11.png';
+import informing from './images/A deep dive into Informing-13.png';
+import consciousUnconscious from './images/Conscious VS. Unconscious-08.png';
+import manifestingProjected from './images/Manifesting channels VS. projected-14.png';
+import angerTransformation from './images/Anger and trans-formation-10.png';
+import peaceFlow from './images/Peace and flow-09.png';
+import thursday from './images/Thursday.png';
+import friday from './images/Friday.png';
+import saturday from './images/Saturday.png';
+import sunday from './images/Sunday.png';
+import monday from './images/Monday.png';
+import footerBackground from './images/background-06.jpg';
+import creteMap from './images/crete map-15.jpg';
+import cretePhotos from './images/crete pic-16.png';
+import millaPavaka from './images/milla and pavaka-17.png';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="flex min-h-screen flex-col items-center justify-between">
+      <header className="sm:p-10 mb-5 sm:m-0">
+        <Image className="" src={logoWide} alt="" />
+      </header>
+      <section className="p-10 pt-0 max-w-screen-xl">
+        <div className="flex flex-row">
+          <div className="flex flex-col justify-center text-center">
+            <h1 className="text-theme-red">
+              To all the beautiful lone wolves of the Manifestor clan<br />
+              This is a calling for a <Image className="inline max-h-12 w-auto m-0" src={uniqueAdventure} alt="unique adventure!" />
+            </h1>
+            <p className="mb-1">
+              Informing you of an opportunity to relax deeper into the Manifestor Aura, gain a solid understanding of the Manifestor mechanics, and dive together into the magic of BEING us.
+            </p>
+            <p className="mb-1">
+              On June 6th, we embark on a 5 day discovery journey to experiment, experience, learn, impact and be impacted, and also just ENJOY precious time together in Manifestor sisterhood.
+            </p>
+            <p className="mb-1">
+              The setting is a beautiful villa (with a private beach) in the island of Crete, Greece.
+            </p>
+            <p className="mb-12">
+              We will experience in Aura interaction, learn and discuss important Manifestor themes, enjoy morning yoga and original music, and all facilitated by Manifestor women living their HD experiment.
+            </p>
+            <h3 className="font-bold">
+              Some topics we will cover and investigate:
+            </h3>
+            <ul className="flex items-center flex-col">
+              <div className="flex flex-row flex-wrap md:flex-nowrap justify-center sm:w-3/4">
+                <li className="sm:w-1/3 sm:mr-10">
+                  <Image src={manifestorRelationships} alt="" />
+                  Being a Manifestor (woman) in relationships
+                </li>
+                <li className="sm:w-1/3 sm:mr-10">
+                  <Image src={manifestorAuthorities} alt="" />
+                  The different Manifestor inner authorities: Emotional, splenic, ego
+                </li>
+                <li className="sm:w-1/3">
+                  <Image src={informing} alt="" />
+                  A deep dive into Informing
+                </li>
+              </div>
+              <div className="flex flex-wrap md:flex-nowrap flex-row justify-center">
+                <li className="sm:w-1/4 sm:mr-10">
+                  <Image src={consciousUnconscious} alt="" />
+                  Conscious VS. Unconscious Manifestors
+                </li>
+                <li className="sm:w-1/4 sm:mr-10">
+                  <Image src={manifestingProjected} alt="" />
+                  Manifesting channels VS. Projected channels Manifestors
+                </li>
+                <li className="sm:w-1/4 sm:mr-10">
+                  <Image src={angerTransformation} alt="" />
+                  Anger and transformation
+                </li>
+                <li className="sm:w-1/4">
+                  <Image src={peaceFlow} alt="" />
+                  Peace and flow
+                </li>
+              </div>
+            </ul>
+          </div>
+          <div></div>
         </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+      </section>
+      <section className="p-10 max-w-screen-lg">
+        <h2 className="text-center">Schedule</h2>
+        <div className="flex items-center flex-col">
+          <div className="flex flex-row justify-center">
+            <Image className="w-1/4 mr-20" src={thursday} alt="Thursday" />
+            <Image className="w-1/4 mr-20" src={friday} alt="Friday" />
+            <Image className="w-1/4" src={saturday} alt="Saturday" />
+          </div>
+          <div className="flex flex-row justify-center w-1/2">
+            <Image className="w-1/2 mr-20" src={sunday} alt="Sunday" />
+            <Image className="w-1/2" src={monday} alt="Monday" />
+          </div>
+        </div>
+      </section>
+      <section className="p-2 sm:p-10 text-center">
+        <h2>A beach retreat</h2>
+        <p className="mb-1">
+          Our venue is a little haven, a comfortable beach front Vila located in Ferma,
+          (I put the geographical info under PRACTICAL DETAILS see below) in the island Crete in Greece.
+        </p>
+        <p className="mb-1">
+          We will enjoy our own private perfect Mediterranean beach,
+          with a shaded wooden deck with sun beds and chairs for a unique beach experience. We have a Greek Sauna as well.
+        </p>
+        <p className="mb-1">
+          We will be holding our sessions in a big beautiful (90sqm) studio with wooden floors and big windows.
+          It&apos;s the perfect clean space to move, sit, dance, talk, sing, and be.  Our sacred temple.
+        </p>
+        <p className="mb-1">
+          The rooms are simple and comfy, with each apartment\room having a kitchenette, private toilets and shower.
+        </p>
+        <p>
+          We have rented the house next door as well, another venue with 4 beautiful apartments,
+          so we have space for 30 women in the 2 houses together, in perfect staying conditions.
+        </p>
+      </section>
+      <footer className="sm:p-5 w-full relative overflow-hidden">
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+          src={footerBackground}
+          alt=""
+          placeholder="blur"
+          quality={100}
+          className="absolute w-full -z10 bottom-0 left-0"
+          style={{
+            height: '140%'
+          }}
+          sizes="100vw"
         />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+        <div className="flex flex-row flex-wrap sm:flex-nowrap w-3/4 m-auto relative">
+          <Image src={creteMap} className="sm:w-2/3" alt="Map of Crete" />
+          <Image src={cretePhotos} className="sm:w-1/3" alt="Photos of Crete" />
+        </div>
+        <div className="flex flex-col relative items-center mt-10">
+          <h2>Facilitating</h2>
+          <p>Milla Berglund and Pavaka Halel Katzir</p>
+          <Image src={millaPavaka} alt="Milla and Pavaka" className="sm:w-1/4" />
+          <p className="w-5/6 sm:w-3/4 text-center p-2 bg-white/70 shadow-[0_0_40px_0_rgba(255,255,255,1)] rounded-sm">
+            We met in Mary Ann Winiger&apos;s Immersions, and connected with ease and joy.
+            We know the benefits of being together as Manifestors in the experiential field of investigating the Aura.
+            The sameness of Aura is a bridge across languages and cultural conditioning and differences.
+            This retreat is a natural happening out of this joy of being together, with our international tribe,
+            celebrating both the familiarity of Manifestor attributes, and the uniqueness of each individual, in correctness.
           </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        </div>
+      </footer>
     </main>
   );
 }

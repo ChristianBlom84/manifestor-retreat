@@ -1,0 +1,61 @@
+// CSS Variables
+:root {
+  --primary-color: #002d6d;
+  --primary-color-transparent: #002d6d80;
+  --secondary-color: #77fd89;
+  --primary-font: "Oswald", sans-serif;
+  --secondary-font: "Oswald", sans-serif;
+  --link-hover-color: #4a4a4a;
+  --box-shadow-default: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+// Colors
+$primary-color: #faf8ef;
+$primary-color-transparent: #002d6d80;
+$secondary-color: #d84a7a;
+$secondary-color-transparent: #77fd897e;
+$success-color: #00ff80;
+$danger-color: #ff0000c4;
+$danger-color-transparent: #ff000060;
+$link-hover-color: #4a4a4a;
+
+// Fonts
+$base-font-size: 18px;
+$mobile-font-size: 18px;
+$headings-font: "Oswald", sans-serif;
+$body-font: "Cabin", sans-serif;
+
+// Breakpoints
+$BpSmall: 544px;
+$BpMedium: 767px;
+$BpLarge: 1200px;
+
+@mixin smallMax {
+  @media (max-width: #{$BpSmall}) {
+    @content;
+  }
+}
+
+@mixin mediumMax {
+  @media (max-width: #{$BpMedium}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media (min-width: #{$BpSmall}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (min-width: #{$BpMedium}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: #{$BpLarge}) {
+    @content;
+  }
+}
