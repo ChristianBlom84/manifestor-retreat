@@ -1,6 +1,6 @@
 import Image from "next/image";
-import logoWide from "./images/logo/Logo 1.jpg";
-import logo from "./images/logo/Logo 2.jpg";
+import logoWide from "./images/logo/Logo1.jpg";
+import logo from "./images/logo/Logo2.jpg";
 import uniqueAdventure from './images/uniqueadventure.png';
 import manifestorRelationships from './images/ManifestorRelationships.png';
 import manifestorAuthorities from './images/TheDifferentManifestors.png';
