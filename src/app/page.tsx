@@ -2,22 +2,22 @@ import Image from "next/image";
 import logoWide from "./images/logo/Logo 1.jpg";
 import logo from "./images/logo/Logo 2.jpg";
 import uniqueAdventure from './images/uniqueadventure.png';
-import manifestorRelationships from './images/Manifestor  relationships-12.png';
-import manifestorAuthorities from './images/the different mani-11.png';
-import informing from './images/A deep dive into Informing-13.png';
-import consciousUnconscious from './images/Conscious VS. Unconscious-08.png';
-import manifestingProjected from './images/Manifesting channels VS. projected-14.png';
-import angerTransformation from './images/Anger and trans-formation-10.png';
-import peaceFlow from './images/Peace and flow-09.png';
+import manifestorRelationships from './images/ManifestorRelationships.png';
+import manifestorAuthorities from './images/TheDifferentManifestors.png';
+import informing from './images/InformingDeepDive.png';
+import consciousUnconscious from './images/ConsciousVSUnconscious.png';
+import manifestingProjected from './images/ManifestingChannelsVSProjected.png';
+import angerTransformation from './images/AngerTransformation.png';
+import peaceFlow from './images/PeaceAndFlow.png';
 import thursday from './images/Thursday.png';
 import friday from './images/Friday.png';
 import saturday from './images/Saturday.png';
 import sunday from './images/Sunday.png';
 import monday from './images/Monday.png';
 import footerBackground from './images/background-06.jpg';
-import creteMap from './images/crete map-15.jpg';
-import cretePhotos from './images/crete pic-16.png';
-import millaPavaka from './images/milla and pavaka-17.png';
+import creteMap from './images/CreteMap.jpg';
+import cretePhotos from './images/CretePic.png';
+import millaPavaka from './images/MillaAndPavaka.png';
 
 export default function Home() {
   return (
