@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logoWide from "./images/logo/Logo 1.jpg";
 import logo from "./images/logo/Logo 2.jpg";
-import uniqueAdventure from './images/unique adventure.png';
+import uniqueAdventure from './images/uniqueadventure.png';
 import manifestorRelationships from './images/Manifestor  relationships-12.png';
 import manifestorAuthorities from './images/the different mani-11.png';
 import informing from './images/A deep dive into Informing-13.png';
