@@ -10,7 +10,7 @@ import peaceFlow from '../images/PeaceAndFlow.png';
 export default function Home() {
   return (
     <>
-      <h1 className="text-theme-red">Some of the topics we will cover</h1>
+      <h1 className="mx-2 text-center">Some of the topics we will cover</h1>
       <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
         <article className="w-4/5 md:w-1/3 lg:mr-20 xl:w-1/4">
           <Image src={manifestorRelationships} alt="" />
