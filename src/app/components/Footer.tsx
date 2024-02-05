@@ -26,7 +26,7 @@ function Footer() {
       </div>
       <div className="flex flex-col relative items-center mt-10">
         <h2>Facilitating</h2>
-        <p><Image className="inline max-h-12 w-auto m-0" src={millaText} alt="Milla Berglund" /> and <Image className="inline max-h-12 w-auto m-0" src={pavakaText} alt="Pavaka Halel Katzir" /></p>
+        <p>Milla Berglund and Pavaka Halel Katzir</p>
         <Image src={millaPavaka} alt="Milla and Pavaka" className="sm:w-1/4" />
         <p className="w-5/6 sm:w-3/4 text-center p-2 bg-white/70 shadow-[0_0_40px_0_rgba(255,255,255,1)] rounded-sm">
           We met in Mary Ann Winiger&apos;s Immersions, and connected with ease and joy.
