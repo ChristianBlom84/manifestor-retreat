@@ -39,6 +39,7 @@ h2 {
 }
 
 h3 {
+  font-size: 1.25rem;
   margin-bottom: 0.75rem;
 }
 
@@ -53,7 +54,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: black;
+  color: $secondary-color;
 }
 
 p {
