@@ -1,7 +1,7 @@
 import Image from "next/image";
-import logoWide from "../images/logo/logoNew.jpg";
-import Menu from './Menu';
 import Link from "next/link";
+import Menu from './Menu';
+import logoWide from "../images/logo/logoNew.jpg";
 
 function Header() {
   return (

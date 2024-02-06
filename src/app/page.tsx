@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import logo from "./images/logo/Logo2.jpg";
 import uniqueAdventure from './images/uniqueadventure.png';
 import manifestorRelationships from './images/ManifestorRelationships.png';
@@ -17,7 +18,6 @@ import footerBackground from './images/background-06.jpg';
 import creteMap from './images/CreteMap.jpg';
 import cretePhotos from './images/CretePic.png';
 import millaPavaka from './images/MillaAndPavaka.png';
-import Link from "next/link";
 
 export default function Home() {
   return (
