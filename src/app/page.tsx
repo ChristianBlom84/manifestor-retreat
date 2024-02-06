@@ -30,16 +30,20 @@ export default function Home() {
               This is a calling for a <Image className="inline max-h-12 w-auto m-0" src={uniqueAdventure} alt="unique adventure!" />
             </h1>
             <p className="mb-1">
-              Informing you of an opportunity to relax deeper into the Manifestor Aura, gain a solid understanding of the Manifestor mechanics, and dive together into the magic of BEING us.
+              Informing you of an opportunity to relax deeper into the Manifestor Aura, gain a solid
+              understanding of the Manifestor mechanics, and dive together into the magic of BEING us.
             </p>
             <p className="mb-1">
-              On June 6th, we embark on a 5 day discovery journey to experiment, experience, learn, impact and be impacted, and also just ENJOY precious time together in Manifestor sisterhood.
+              On June 6th, we embark on a 5 day discovery journey to experiment, experience, learn,
+              impact and be impacted, and also just ENJOY precious time together in Manifestor sisterhood.
             </p>
             <p className="mb-1">
               The setting is a beautiful villa (with a private beach) in the island of Crete, Greece.
             </p>
             <p className="mb-12">
-              We will experience in Aura interaction, learn and discuss important Manifestor themes, enjoy morning yoga and original music, and all facilitated by Manifestor women living their HD experiment.
+              We will experience in Aura interaction, learn, and discuss important Manifestor themes,
+              enjoy morning movement and original music. All of this facilitated by Manifestor women deeply
+              immersed living their HD experiment.
             </p>
             <h3 className="font-bold">
               Some topics we will cover and investigate:
@@ -49,7 +53,7 @@ export default function Home() {
                 <li className="sm:w-1/3 sm:mr-10 relative">
                   <Link href="/topics">
                     <Image src={manifestorRelationships} alt="" />
-                    <p>Being a Manifestor woman in relationships can be a challenging experience.</p>
+                    <p>Being a Manifestor (woman) in relationships.</p>
                   </Link>
                 </li>
                 <li className="sm:w-1/3 sm:mr-10">
@@ -75,7 +79,7 @@ export default function Home() {
                 <li className="sm:w-1/4 sm:mr-10">
                   <Link href="/topics">
                     <Image src={manifestingProjected} alt="" />
-                    <p>Manifesting channels VS. Projected channels Manifestors</p>
+                    <p>Manifesting channels Vs. Projected channels Manifestors</p>
                   </Link>
                 </li>
                 <li className="sm:w-1/4 sm:mr-10">
@@ -93,31 +97,135 @@ export default function Home() {
               </div>
             </ul>
           </div>
-          <div></div>
         </div>
       </section>
       <section className="p-10 max-w-screen-lg">
         <h2 className="text-center">Schedule</h2>
         <div className="flex items-center flex-col">
-          <div className="flex flex-row justify-center">
-            <Image className="w-1/4 mr-20" src={thursday} alt="Thursday" />
-            <Image className="w-1/4 mr-20" src={friday} alt="Friday" />
-            <Image className="w-1/4" src={saturday} alt="Saturday" />
+          <div className="flex flex-col items-center md:items-start md:flex-row flex-wrap md:flex-nowrap justify-center">
+            <div className="w-3/4 sm:w-1/2 md:w-1/4 mb-5 md:mr-20">
+              <Image src={thursday} alt="Thursday" />
+              <ul>
+                <li>
+                  Arrival day - arrive at your own pace
+                </li>
+                <li>
+                  17:00 opening ceremony - let&apos;s get to know each other
+                </li>
+                <li>
+                  18:30 out to dinner together (optional)
+                </li>
+              </ul>
+            </div>
+            <div className="w-3/4 sm:w-1/2 md:w-1/4 mb-5 md:mr-20">
+              <Image src={friday} alt="Friday" />
+              <ul>
+                <li>
+                  08:00 - 09:00 Qi Gong
+                </li>
+                <li>
+                  09:00 Morning snacks
+                </li>
+                <li>
+                  10:00 - 11:30/12:00 Manifestor session
+                </li>
+                <li>
+                  12:30 Lunch
+                </li>
+                <li>
+                  15:00 - 17:00 Manifestor session
+                </li>
+                <li>
+                  18:00 Kabalat Shabbat
+                </li>
+                <li>
+                  Dinner time
+                </li>
+              </ul>
+            </div>
+            <div className="w-3/4 sm:w-1/2 md:w-1/4 mb-5">
+              <Image src={saturday} alt="Saturday" />
+              <ul>
+                <li>
+                  08:00 - 09:00 Qi Gong
+                </li>
+                <li>
+                  09:00 Morning snacks
+                </li>
+                <li>
+                  10:00 - 11:30/12:00 Manifestor session
+                </li>
+                <li>
+                  12:30 Lunch
+                </li>
+                <li>
+                  15:00 - 17:00 Manifestor session
+                </li>
+                <li>
+                  Dinner time
+                </li>
+                <li>
+                  20:00 Music & Dancing
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="flex flex-row justify-center w-1/2">
-            <Image className="w-1/2 mr-20" src={sunday} alt="Sunday" />
-            <Image className="w-1/2" src={monday} alt="Monday" />
+          <div className="flex flex-col items-center md:items-start md:flex-row flex-wrap md:flex-nowrap justify-center">
+            <div className="w-3/4 sm:w-1/2 md:w-1/4 mb-5 md:mr-20">
+              <Image src={sunday} alt="Sunday" />
+              <ul>
+                <li>
+                  08:00 - 09:00 Qi Gong
+                </li>
+                <li>
+                  09:00 Morning snacks
+                </li>
+                <li>
+                  10:00 - 11:30/12:00 Manifestor session
+                </li>
+                <li>
+                  12:30 Lunch
+                </li>
+                <li>
+                  15:00 - 17:00 Manifestor session
+                </li>
+                <li>
+                  Dinner time
+                </li>
+                <li>
+                  20:00 Music concert
+                </li>
+              </ul>
+            </div>
+            <div className="w-3/4 sm:w-1/2 md:w-1/4 mb-5">
+              <Image src={monday} alt="Monday" />
+              <ul>
+                <li>
+                  Departure day
+                </li>
+                <li>
+                  08:00 Morning snacks
+                </li>
+                <li>
+                  09:00 - 10:00 Closing ceremony - a morning to just BE together
+                </li>
+                <li>
+                  Leaving at your own pace
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
       <section className="p-2 sm:px-10 sm:pt-10 pb-0 text-center">
         <h2>A beach retreat</h2>
         <p className="mb-1">
-          Our venue is a little haven, a comfortable beach front Vila located in Ferma, in the island Crete in Greece.
+          Our venue is a little haven, a comfortable beach front Vila located in Ferma, (see PRACTICAL DETAILS)
+          in the island Crete in Greece.
         </p>
         <p className="mb-1">
-          We will enjoy our own private perfect Mediterranean beach,
-          with a shaded wooden deck with sun beds and chairs for a unique beach experience. We have a Greek Sauna as well.
+          We will enjoy our own <b>private</b> perfect Mediterranean beach, with a shaded wooden
+          deck with sun beds and chairs for a unique beach experience. We have a Greek Sauna as well.
         </p>
         <p className="mb-1">
           We will be holding our sessions in a big beautiful (90sqm) studio with wooden floors and big windows.

@@ -31,7 +31,7 @@ function Footer() {
         <p className="w-5/6 sm:w-3/4 text-center p-2 bg-white/70 shadow-[0_0_40px_0_rgba(255,255,255,1)] rounded-sm">
           We met in Mary Ann Winiger&apos;s Immersions, and connected with ease and joy.
           We know the benefits of being together as Manifestors in the experiential field of investigating the Aura.
-          The sameness of Aura is a bridge across languages and cultural conditioning and differences.
+          The sameness of Aura is a bridge across languages, cultural conditioning and differences.
           This retreat is a natural happening out of this joy of being together, with our international tribe,
           celebrating both the familiarity of Manifestor attributes, and the uniqueness of each individual, in correctness.
         </p>
