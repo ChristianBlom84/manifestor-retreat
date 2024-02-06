@@ -9,7 +9,7 @@ import ihdsCertified from '../images/Certified-pro-transparent.png';
 export default function Home() {
   return (
     <>
-      <h1 className="mx-2 mt-10 text-center">Who are we?</h1>
+      <h1 className="mx-2 md:mt-10 text-center">Who are we?</h1>
       <div className="flex flex-col items-center md:items-start md:flex md:flex-row md:justify-evenly mb-20">
         <div className="w-11/12 sm:w-4/5 md:w-2/5 mb-10 md:mb-0">
           <h2><Image className="w-3/4 sm:w-2/3 md:w-3/5 lg:w-2/5" alt="Pavaka Halel Katzir" src={pavakaHeadline} /></h2>
@@ -50,7 +50,7 @@ export default function Home() {
             I crossed paths with Human Design in 2012 - and living Strategy & Authority became my way to navigate the world.
             Finally, the pieces of my life&apos;s puzzle finally fit together with a vocabulary, and a context, making sense.
             Went to my first Immersion with Mary Ann in 2015 and experienced the power of being in Aura with others
-            living their experiment. Since then, I have become an LYD guide and (IHDS-board willingly) HD Analyst,
+            living their experiment. Since then, I have become an LYD guide and (IHDS-board willing) HD Analyst,
             working with clients through sessions and readings. When I step out from behind my barrier for the correct
             call, such as this retreat, I relax and enjoy my love in supporting fellow Manifestors.
           </p>

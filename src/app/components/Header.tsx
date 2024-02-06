@@ -8,7 +8,7 @@ function Header() {
     <header className="w-full">
       <Menu />
       <Link href="/">
-        <Image className="sm:px-10 mb-10 mx-auto" src={logoWide} alt="" priority />
+        <Image className="sm:px-10 mb-10 mx-auto lg:max-w-4xl" src={logoWide} alt="" priority />
       </Link>
     </header>
   )
