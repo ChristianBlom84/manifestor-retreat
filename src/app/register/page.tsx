@@ -7,7 +7,7 @@ import ihdsCertified from '../images/Certified-pro-transparent.png';
 export default function Home() {
   return (
     <>
-      <h1 className="mx-2 text-center">Practical Details</h1>
+      <h1 className="mx-2 text-center">Practical Details and Registering</h1>
       <div className="m-5">
         <h2>Prices</h2>
         <p>
