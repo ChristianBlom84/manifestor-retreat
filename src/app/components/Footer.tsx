@@ -36,7 +36,7 @@ function Footer() {
           This retreat is a natural happening out of this joy of being together, with our international tribe,
           celebrating both the familiarity of Manifestor attributes, and the uniqueness of each individual, in correctness.
         </p>
-        <h3 className="text-3xl p-2 w-5/6 sm:w-3/4 bg-white/70 shadow-[0_0_40px_0_rgba(255,255,255,1)] rounded-sm m-5 mb-20">
+        <h3 className="text-3xl text-center p-2 w-5/6 sm:w-auto bg-white/70 shadow-[0_0_40px_0_rgba(255,255,255,1)] rounded-sm m-5 mb-20">
           <Link href="/register">Want more info on registering or the venue? Click here!</Link>
         </h3>
       </div>
