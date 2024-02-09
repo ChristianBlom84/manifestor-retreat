@@ -1,14 +1,16 @@
 import Image from 'next/image';
-import pavakaBodygraph from '../images/PavakaBodygraph.png';
-import millaBodygraph from '../images/MillaBodygraph.png';
-import ihdsCertified from '../images/Certified-pro-transparent.png';
-
+import bedroomOne from '../images/bedroom-1.jpg.webp';
+import bedroomTwo from '../images/bedroom-2-single-beds.jpg.webp';
+import bedroomThree from '../images/bedroom-3-single-bed.jpg.webp';
+import bedroomFour from '../images/bedroom-4-2-double-beds.jpg.webp';
+import oceanView from '../images/ocean-view1.jpg.webp';
+import ImageGallery from '../components/ImageGallery';
 
 export default function Home() {
   return (
     <>
       <h1 className="mx-2 text-center">Practical Details and Registering</h1>
-      <div className="m-5">
+      <div className="m-2">
         <h2>Prices</h2>
         <p>
           Early early bird (ends 28/2): 918€<br />
@@ -46,6 +48,15 @@ export default function Home() {
           <a href="mailto:pavakamorphosis@gmail.com">pavakamorphosis@gmail.com</a>
         </p>
       </div>
+      <h2>Images of the Venue</h2>
+      <ImageGallery />
+      {/* <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-5 mb-5">
+        <Image src={bedroomOne} alt="Bedroom one" />
+        <Image src={bedroomTwo} alt="Bedroom two single beds" />
+        <Image src={bedroomThree} alt="Bedroom three single bed" />
+        <Image src={bedroomFour} alt="Bedroom four two double beds" />
+        <Image src={oceanView} alt="Ocean View" />
+      </div> */}
     </>
   )
 }

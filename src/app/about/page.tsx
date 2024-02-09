@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import pavakaBodygraph from '../images/PavakaBodygraph.png';
+import pavakaPhoto from '../images/Pavaka.jpg';
 import pavakaHeadline from '../images/pavakaText.png';
 import millaBodygraph from '../images/MillaBodygraph.png';
+import millaPhoto from '../images/Milla.jpeg';
 import millaHeadline from '../images/millaText.png';
 import ihdsCertified from '../images/Certified-pro-transparent.png';
 
@@ -14,6 +16,7 @@ export default function Home() {
         <div className="w-11/12 sm:w-4/5 md:w-2/5 mb-10 md:mb-0">
           <h2><Image className="w-3/4 sm:w-2/3 md:w-3/5 lg:w-2/5" alt="Pavaka Halel Katzir" src={pavakaHeadline} /></h2>
           <p>
+            <Image className="float-left mb-5 sm:w-1/2 sm:mr-2 sm:mb-0" alt="Image of Pavaka" src={pavakaPhoto} />
             5\1 emotional Manifestor. Walking the spiritual path since 1999,
             through many teachings and methods, and have been teaching and guiding people since 2005.
           </p>
@@ -39,6 +42,7 @@ export default function Home() {
         <div className="w-11/12 sm:w-4/5 md:w-2/5">
           <h2><Image className="w-3/4 sm:w-2/3 md:w-3/5 lg:w-2/5" alt="Milla Berglund" src={millaHeadline} /></h2>
           <p>
+            <Image className="float-left mb-5 sm:w-1/2 sm:mr-2 sm:mb-0" alt="Image of Milla" src={millaPhoto} />
             6/2 Splenic Manifestor. 19. I was 19 when I felt done with life and in need of help.
             So, I started searching for answers and in the process tried ALL the different things;
             talk therapy, hypnosis, yoga, you name it! Eventually I found my way to someone who guided
