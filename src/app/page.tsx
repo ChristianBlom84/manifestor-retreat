@@ -220,8 +220,8 @@ export default function Home() {
       <section className="p-2 sm:px-10 sm:pt-10 pb-0 text-center">
         <h2>A beach retreat</h2>
         <p className="mb-1">
-          Our venue is a little haven, a comfortable beach front Vila located in Ferma, (see PRACTICAL DETAILS)
-          in the island Crete in Greece.
+          Our venue is a little haven, a comfortable beach front Vila located in Ferma,
+          (see <Link className="underline" href="/register">PRACTICAL DETAILS</Link>) in the island Crete in Greece.
         </p>
         <p className="mb-1">
           We will enjoy our own <b>private</b> perfect Mediterranean beach, with a shaded wooden
