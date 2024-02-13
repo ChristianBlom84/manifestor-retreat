@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <h1 className="mx-2 text-center">Some of the topics we will cover</h1>
       <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 lg:mr-20 xl:w-1/3">
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image src={manifestorRelationships} alt="" />
           <h3>Being a Manifestor (woman) in relationships</h3>
           <p>Being a Manifestor woman in relationships can be a challenging experience.</p>
@@ -31,7 +31,7 @@ export default function Home() {
             How to respect yourself and the others - your partner, children, colleagues and friends.
           </p>
         </article>
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3">
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
           <Image src={manifestorAuthorities} alt="" />
           <h3>Personal Authority – the beautiful differences in our Inner Authority</h3>
           <p>
@@ -56,7 +56,7 @@ export default function Home() {
         </article>
       </div>
       <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 lg:mr-20 xl:w-1/3">
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image src={informing} alt="" />
           <h3>A deep dive into Informing</h3>
           <p>
@@ -83,7 +83,7 @@ export default function Home() {
             until we OWN it in a deeper sense.
           </p>
         </article>
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3">
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
           <Image src={consciousUnconscious} alt="" />
           <h3>Conscious vs Unconscious Manifestors</h3>
           <p>
@@ -108,7 +108,7 @@ export default function Home() {
         </article>
       </div>
       <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 lg:mr-20 xl:w-1/3">
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image src={manifestingProjected} alt="" />
           <h3>Manifesting and Projected Channels</h3>
           <p>
@@ -133,7 +133,7 @@ export default function Home() {
             relax deeper into who we are, accept, embrace and love our manifesting, just as it is.
           </p>
         </article>
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3">
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
           <Image src={angerTransformation} alt="" />
           <h3>Anger and transformation</h3>
           <p>
@@ -161,7 +161,7 @@ export default function Home() {
         </article>
       </div>
       <div className="flex flex-row justify-center flex-wrap md:flex-nowrap w-full">
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3">
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
           <Image src={peaceFlow} alt="" />
           <h3>Peace and flow</h3>
           <p>
