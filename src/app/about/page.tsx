@@ -3,9 +3,10 @@ import pavakaBodygraph from '../images/PavakaBodygraph.png';
 import pavakaPhoto from '../images/Pavaka.jpg';
 import pavakaHeadline from '../images/pavakaText.png';
 import millaBodygraph from '../images/MillaBodygraph.png';
-import millaPhoto from '../images/Milla.jpeg';
+import millaPhoto from '../images/Milla.jpg';
 import millaHeadline from '../images/millaText.png';
 import ihdsCertified from '../images/Certified-pro-transparent.png';
+import etiPhoto from '../images/Eti.jpg';
 
 
 export default function Home() {
@@ -63,6 +64,24 @@ export default function Home() {
             <Image className="md:w-1/2" src={ihdsCertified} alt="IHDS Certified Professional" />
           </div>
         </div>
+      </div>
+      <h2>Meet the team</h2>
+      <div className="w-11/12 sm:w-4/5 md:w-2/5">
+        <h3>Eti Zohar Abramovitz</h3>
+        <p>
+          <Image className="float-left mb-5 sm:w-1/2 sm:mr-2 sm:mb-0" alt="Image of Eti" src={etiPhoto} />
+          I&apos;m 45 years old and a mother of two teenagers. I&apos;m a 3\6 emotional manifesor
+          I deeply love skills. I am a musician, a flute player, and an educator working
+          with young children and teens. I mediate in family conflicts.
+        </p>
+        <p>
+          In the retreat,
+          I will be facilitating a chi Kong practice 3 mornings. I practice Chinese martial
+          arts for 25 years now. I practice and teach with much love to this amazing body path I chose.
+          I&apos;m excited to do some practices with you, that will connect us more deeply to our unique center,
+          to the special deep silence and quiet zone in us, the one that initiates the most wanted peaceful
+          state that is influencing and impacting both inwards and outwards. See you with big curiosity.
+        </p>
       </div>
     </>
   )

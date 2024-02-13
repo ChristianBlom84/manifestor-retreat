@@ -47,8 +47,15 @@ export default function Home() {
           <a href="tel:+972508862726">+972 50-886-2726</a><br />
           <a href="mailto:pavakamorphosis@gmail.com">pavakamorphosis@gmail.com</a>
         </p>
+        <h2>Refunds and cancellations</h2>
+        <p>
+          Full refund minus 5% until May 1st.<br />
+          Cancellations after May 1st - 50% refund.<br />
+          Cancellations after May 22nd - 20% refund.<br />
+          Cancellations after June 1st - no refund.
+        </p>
+        <h2>Images of the Venue</h2>
       </div>
-      <h2>Images of the Venue</h2>
       <ImageGallery />
       {/* <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-5 mb-5">
         <Image src={bedroomOne} alt="Bedroom one" />
