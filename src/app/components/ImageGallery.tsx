@@ -1,4 +1,4 @@
-"use client"
+'use client';
 
 import React, { useRef, useState } from 'react';
 import Image, { StaticImageData } from 'next/image';
@@ -21,12 +21,28 @@ import venueEleven from '../images/Venue11.jpg';
 import venueTwelve from '../images/Venue12.jpg';
 
 const ImageGallery = () => {
-  const [selectedImage, setSelectedImage] = useState<StaticImageData | null>(null);
+  const [selectedImage, setSelectedImage] = useState<StaticImageData | null>(
+    null,
+  );
   const modalRef = useRef<HTMLDivElement>(null);
   const images = [
-    bedroomOne, bedroomTwo, bedroomThree, bedroomFour, oceanView,
-    venueOne, venueTwo, venueThree, venueFour, venueFive, venueSix, venueSeven,
-    venueEight, venueNine, venueTen, venueEleven, venueTwelve
+    bedroomOne,
+    bedroomTwo,
+    bedroomThree,
+    bedroomFour,
+    oceanView,
+    venueOne,
+    venueTwo,
+    venueThree,
+    venueFour,
+    venueFive,
+    venueSix,
+    venueSeven,
+    venueEight,
+    venueNine,
+    venueTen,
+    venueEleven,
+    venueTwelve,
   ];
 
   const handleImageClick = (image: any) => {
@@ -35,7 +51,9 @@ const ImageGallery = () => {
     document.body.style.overflow = 'hidden'; // Disable scrolling when modal is open
   };
 
-  const handleCloseOutsideModal = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+  const handleCloseOutsideModal = (
+    e: React.MouseEvent<HTMLDivElement, MouseEvent>,
+  ) => {
     if (modalRef.current && !modalRef.current.contains(e.target as Node)) {
       handleCloseModal();
     }
@@ -49,7 +67,11 @@ const ImageGallery = () => {
   return (
     <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-5 mb-5 2xl:max-w-screen-2xl">
       {images.map((image, index) => (
-        <div className="md:max-h-36 lg:max-h-40 xl:max-h-48 2xl:max-h-60 overflow-hidden flex justify-center items-center" key={index} onClick={() => handleImageClick(image)}>
+        <div
+          className="md:max-h-36 lg:max-h-40 xl:max-h-48 2xl:max-h-60 overflow-hidden flex justify-center items-center"
+          key={index}
+          onClick={() => handleImageClick(image)}
+        >
           <Image src={image} alt={`${selectedImage}`} />
         </div>
       ))}
@@ -59,8 +81,17 @@ const ImageGallery = () => {
           onClick={(e) => handleCloseOutsideModal(e)}
         >
           <div className="relative" ref={modalRef}>
-            <span className="absolute top-2 right-2 text-white cursor-pointer text-2xl" onClick={handleCloseModal}>&times;</span>
-            <Image className="w-full h-auto" src={selectedImage} alt={`${selectedImage}`} />
+            <span
+              className="absolute top-2 right-2 text-white cursor-pointer text-2xl"
+              onClick={handleCloseModal}
+            >
+              &times;
+            </span>
+            <Image
+              className="w-full h-auto"
+              src={selectedImage}
+              alt={`${selectedImage}`}
+            />
           </div>
         </div>
       )}
