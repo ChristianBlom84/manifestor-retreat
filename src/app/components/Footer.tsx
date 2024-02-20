@@ -28,10 +28,10 @@ function Footer() {
       </div>
       <div className="flex flex-col relative items-center mt-10">
         <h2>
-          <Link href="/about">Facilitating</Link>
+          <Link href="/team">Facilitating</Link>
         </h2>
         <p>Milla Berglund and Pavaka Halel Katzir</p>
-        <Link className="inline" href="/about">
+        <Link className="inline" href="/team">
           <Image
             src={millaPavaka}
             alt="Milla and Pavaka"

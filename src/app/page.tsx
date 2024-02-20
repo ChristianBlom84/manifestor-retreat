@@ -18,6 +18,7 @@ import monday from './images/Monday.png';
 import footerBackground from './images/background-06.jpg';
 import creteMap from './images/CreteMap.jpg';
 import cretePhotos from './images/CretePic.png';
+import venuePic from './images/Venue7.jpg';
 import millaPavaka from './images/MillaAndPavaka.png';
 
 export default function Home() {
@@ -152,6 +153,32 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="p-2 sm:px-10 sm:pt-10 pb-0 text-center">
+        <Image className="w-full m-auto mb-4" src={venuePic} alt="" />
+        <h2>A beach retreat</h2>
+        <p className="mb-1">
+          Our venue is a little haven, a comfortable beach front Vila located in
+          Ferma, (see{' '}
+          <Link className="underline" href="/register">
+            PRACTICAL DETAILS
+          </Link>
+          ) in the island Crete in Greece.
+        </p>
+        <p className="mb-1">
+          Imagine us, the tribe of Manifestor women, peacefully relaxing in our
+          freedom and power, in a tranquil paradise on a beautiful island.
+          That&apos;s exactly what it will be!
+        </p>
+        <p className="mb-1">
+          We&apos;ll enjoy perfect Mediterranean weather, two amazing
+          neighboring beachfront villas with a private beach, sauna, and
+          delicious homemade Greek food delivered to us.
+        </p>
+        <p>
+          Evenings offer optional dinners at a nearby tavern, within walking
+          distance, and plenty of time to enjoy each other&apos;s company.
+        </p>
+      </section>
       <section className="p-10 max-w-screen-lg">
         <h2 className="text-center">Schedule</h2>
         <div className="flex items-center flex-col">
@@ -217,31 +244,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
-      <section className="p-2 sm:px-10 sm:pt-10 pb-0 text-center">
-        <h2>A beach retreat</h2>
-        <p className="mb-1">
-          Our venue is a little haven, a comfortable beach front Vila located in
-          Ferma, (see{' '}
-          <Link className="underline" href="/register">
-            PRACTICAL DETAILS
-          </Link>
-          ) in the island Crete in Greece.
-        </p>
-        <p className="mb-1">
-          Imagine us, the tribe of Manifestor women, peacefully relaxing in our
-          freedom and power, in a tranquil paradise on a beautiful island.
-          That&apos;s exactly what it will be!
-        </p>
-        <p className="mb-1">
-          We&apos;ll enjoy perfect Mediterranean weather, two amazing
-          neighboring beachfront villas with a private beach, sauna, and
-          delicious homemade Greek food delivered to us.
-        </p>
-        <p>
-          Evenings offer optional dinners at a nearby tavern, within walking
-          distance, and plenty of time to enjoy each other&apos;s company.
-        </p>
       </section>
     </>
   );
