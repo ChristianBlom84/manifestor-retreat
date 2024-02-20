@@ -5,6 +5,7 @@ import uniqueAdventure from './images/uniqueadventure.png';
 import manifestorRelationships from './images/ManifestorRelationships.png';
 import manifestorAuthorities from './images/TheDifferentManifestors.png';
 import informing from './images/InformingDeepDive.png';
+import impact from './images/Impact.png';
 import consciousUnconscious from './images/ConsciousVSUnconscious.png';
 import manifestingProjected from './images/ManifestingChannelsVSProjected.png';
 import angerTransformation from './images/AngerTransformation.png';
@@ -26,9 +27,8 @@ export default function Home() {
         <div className="flex flex-row">
           <div className="flex flex-col justify-center text-center">
             <h1 className="text-theme-red">
-              To all the beautiful lone wolves of the Manifestor clan
-              <br />
-              This is a calling for a{' '}
+              Calling all beautiful lone wolves of the Manifestor clan -
+              let&apos;s embark on a{' '}
               <Image
                 className="inline max-h-12 w-auto m-0"
                 src={uniqueAdventure}
@@ -59,53 +59,91 @@ export default function Home() {
               Some topics we will cover and investigate:
             </h3>
             <ul className="flex items-center flex-col">
-              <div className="flex flex-row flex-wrap md:flex-nowrap justify-center sm:w-3/4">
-                <li className="sm:w-1/3 sm:mr-10 relative">
+              <div className="flex flex-row flex-wrap md:flex-nowrap justify-center">
+                <li className="sm:w-1/3 md:w-1/4 sm:mr-10 relative">
                   <Link href="/topics">
-                    <Image src={manifestorRelationships} alt="" />
+                    <Image
+                      className="w-2/3 sm:w-full m-auto"
+                      src={manifestorRelationships}
+                      alt=""
+                    />
                     <p>Being a Manifestor (woman) in relationships.</p>
                   </Link>
                 </li>
-                <li className="sm:w-1/3 sm:mr-10">
+                <li className="sm:w-1/3 md:w-1/4 md:mr-10">
                   <Link href="/topics">
-                    <Image src={manifestorAuthorities} alt="" />
+                    <Image
+                      className="w-2/3 sm:w-full m-auto"
+                      src={manifestorAuthorities}
+                      alt=""
+                    />
                     <p>
                       The different Manifestor inner authorities: Emotional,
                       splenic, ego
                     </p>
                   </Link>
                 </li>
-                <li className="sm:w-1/3">
+                <li className="sm:w-1/3 md:w-1/4 sm:mr-10">
                   <Link href="/topics">
-                    <Image src={informing} alt="" />
+                    <Image
+                      className="w-2/3 sm:w-full m-auto"
+                      src={informing}
+                      alt=""
+                    />
                     <p>A deep dive into Informing</p>
+                  </Link>
+                </li>
+                <li className="sm:w-1/3 md:w-1/4">
+                  <Link href="/topics">
+                    <Image
+                      className="w-2/3 sm:w-full m-auto"
+                      src={impact}
+                      alt=""
+                    />
+                    <p>Impact</p>
                   </Link>
                 </li>
               </div>
               <div className="flex flex-wrap md:flex-nowrap flex-row justify-center">
-                <li className="sm:w-1/4 sm:mr-10">
+                <li className="sm:w-1/3 md:w-1/4 sm:mr-10">
                   <Link href="/topics">
-                    <Image src={consciousUnconscious} alt="" />
+                    <Image
+                      className="w-2/3 sm:w-full m-auto"
+                      src={consciousUnconscious}
+                      alt=""
+                    />
                     <p>Conscious VS. Unconscious Manifestors</p>
                   </Link>
                 </li>
-                <li className="sm:w-1/4 sm:mr-10">
+                <li className="sm:w-1/3 md:w-1/4 md:mr-10">
                   <Link href="/topics">
-                    <Image src={manifestingProjected} alt="" />
+                    <Image
+                      className="w-2/3 sm:w-full m-auto"
+                      src={manifestingProjected}
+                      alt=""
+                    />
                     <p>
                       Manifesting channels Vs. Projected channels Manifestors
                     </p>
                   </Link>
                 </li>
-                <li className="sm:w-1/4 sm:mr-10">
+                <li className="sm:w-1/3 md:w-1/4 sm:mr-10">
                   <Link href="/topics">
-                    <Image src={angerTransformation} alt="" />
+                    <Image
+                      className="w-2/3 sm:w-full m-auto"
+                      src={angerTransformation}
+                      alt=""
+                    />
                     <p>Anger and transformation</p>
                   </Link>
                 </li>
-                <li className="sm:w-1/4">
+                <li className="sm:w-1/3 md:w-1/4">
                   <Link href="/topics">
-                    <Image src={peaceFlow} alt="" />
+                    <Image
+                      className="w-2/3 sm:w-full m-auto"
+                      src={peaceFlow}
+                      alt=""
+                    />
                     <p>Peace and flow</p>
                   </Link>
                 </li>
@@ -191,23 +229,18 @@ export default function Home() {
           ) in the island Crete in Greece.
         </p>
         <p className="mb-1">
-          We will enjoy our own <b>private</b> perfect Mediterranean beach, with
-          a shaded wooden deck with sun beds and chairs for a unique beach
-          experience. We have a Greek Sauna as well.
+          Imagine us, the tribe of Manifestor women, peacefully relaxing in our
+          freedom and power, in a tranquil paradise on a beautiful island.
+          That&apos;s exactly what it will be!
         </p>
         <p className="mb-1">
-          We will be holding our sessions in a big beautiful (90sqm) studio with
-          wooden floors and big windows. It&apos;s the perfect clean space to
-          move, sit, dance, talk, sing, and be. Our sacred temple.
-        </p>
-        <p className="mb-1">
-          The rooms are simple and comfy, with each apartment\room having a
-          kitchenette, private toilets and shower.
+          We&apos;ll enjoy perfect Mediterranean weather, two amazing
+          neighboring beachfront villas with a private beach, sauna, and
+          delicious homemade Greek food delivered to us.
         </p>
         <p>
-          We have rented the house next door as well, another venue with 4
-          beautiful apartments, so we have space for 30 women in the 2 houses
-          together, in perfect staying conditions.
+          Evenings offer optional dinners at a nearby tavern, within walking
+          distance, and plenty of time to enjoy each other&apos;s company.
         </p>
       </section>
     </>

@@ -11,18 +11,12 @@ function Header() {
       <Menu />
       <Link href="/">
         <AdaptiveImage
-          className="sm:px-10 mb-10 mx-auto lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl"
+          className="mb-10 mx-auto lg:max-w-3xl xl:max-w-5xl 2xl:max-w-6xl"
           alt="Hero image"
           desktopImage={logoWide}
           mobileImage={logoMobile}
           fill={false}
         />
-        {/* <Image
-          className="sm:px-10 mb-10 mx-auto lg:max-w-4xl"
-          src={logoWide}
-          alt=""  
-          priority
-        /> */}
       </Link>
     </header>
   );

@@ -6,14 +6,30 @@ import consciousUnconscious from '../images/ConsciousVSUnconscious.png';
 import manifestingProjected from '../images/ManifestingChannelsVSProjected.png';
 import angerTransformation from '../images/AngerTransformation.png';
 import peaceFlow from '../images/PeaceAndFlow.png';
+import impact from '../images/Impact.png';
 
 export default function Home() {
   return (
     <>
-      <h1 className="mx-2 text-center">Some of the topics we will cover</h1>
-      <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 lg:mr-20 xl:w-1/3 2xl:w-1/4">
-          <Image src={manifestorRelationships} alt="" />
+      <h1 className="mx-2 text-center">Topics</h1>
+      <p className="w-11/12 sm:w-4/5 lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto">
+        These are the topics we will be covering, in a journey to a deeper
+        understanding of what it is to be a Manifestor, and the experience of
+        the potential of living it truly.
+      </p>
+      <p className="w-11/12 sm:w-4/5 lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto">
+        We learn information for the <b>mental</b> part of us, experience
+        through somatic aura work to <b>embody</b> the knowledge, and
+        investigate together as a circle for our inspiration, the <b>spirit</b>{' '}
+        part of us.
+      </p>
+      <div className="flex flex-row justify-center flex-wrap md:flex-nowrap">
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
+          <Image
+            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            src={manifestorRelationships}
+            alt=""
+          />
           <h3>Being a Manifestor (woman) in relationships</h3>
           <p>
             Being a Manifestor woman in relationships can be a challenging
@@ -39,7 +55,11 @@ export default function Home() {
           </p>
         </article>
         <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
-          <Image src={manifestorAuthorities} alt="" />
+          <Image
+            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            src={manifestorAuthorities}
+            alt=""
+          />
           <h3>
             Personal Authority – the beautiful differences in our Inner
             Authority
@@ -73,8 +93,12 @@ export default function Home() {
         </article>
       </div>
       <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 lg:mr-20 xl:w-1/3 2xl:w-1/4">
-          <Image src={informing} alt="" />
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
+          <Image
+            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            src={informing}
+            alt=""
+          />
           <h3>A deep dive into Informing</h3>
           <p>
             Informing – what does it mean? How do you do it? Will it look the
@@ -105,38 +129,63 @@ export default function Home() {
           </p>
         </article>
         <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
-          <Image src={consciousUnconscious} alt="" />
-          <h3>Conscious vs Unconscious Manifestors</h3>
+          <Image
+            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            src={impact}
+            alt=""
+          />
+          <h3>Impact</h3>
           <p>
-            We each have two charts, the red and the black. The body (design)
-            and the personality. Unconscious and Conscious (meaning that which
-            is not available to the thought and that which is). We are a whole
-            greater than our parts.
+            Impact is our very nature.
+            <br /> It is our <b>aura</b>, our <b>communication</b>, and our{' '}
+            <b>self-knowing</b>.<br />
+            By the mechanics of our aura, the way our actions and words meet the
+            world, out of a throat connected to a motor, with no sacral to pull
+            it back, creates impact
           </p>
           <p>
-            The Personality is what we think we think we are, it&apos;s how we
-            see and experience ourselves, and it may be very different than what
-            we are as a whole being. What we perceive may also be very different
-            than what others experience of us, the way they see us.
+            This means our very <b>communication</b> with everyone is based upon
+            impact. Regardless of our relation to the person, our thoughts or
+            feeling for them, or their role in our life. That&apos;s really
+            something to ponder - we impact everyone around us all the time,
+            whether we like it or not, want it or not. No choice.
           </p>
           <p>
-            What type is your black chart?
-            <br />
-            Do you &quot;know&quot; you are a Manifestor?
-            <br />
-            Or maybe you &quot;think&quot; you are a Projecter or Reflector?
-            <br />
+            The mechanics of impact is energy going out from within us,
+            &quot;hitting&quot; someone or something on the outside and coming
+            back to us. Kind of like an Australian boomerang. When it hits us
+            back, it <b>tells us of ourselves</b>, because at the most basic
+            energy level - we are our impact!
           </p>
           <p>
-            In the retreat we will discuss the differences between being a
-            conscious Manifestor or an unconscious, and understand how it
-            affects our life, and what we can &quot;do&quot; about it.
+            Metaphorically it&apos;s like a dolphin or a whale, using voice as
+            sonar - it goes out into the world and comes back creating a picture
+            of what it hit around it. It is our frequency coming back. That is
+            why our question is &quot;what is my impact?&quot;.
+          </p>
+          <p>
+            Impact is our spiritual path, as well as our service to the world
+            when our form is correct and our spirit in it aligned. When we wait
+            for the Universe to push us, out of inner authority, our impact
+            carries the inspiration of the source to the world.
+          </p>
+          <p>
+            BUT when incorrect, our impact, reflecting our inner frequency, is a
+            source of suffering. In our retreat we will experiment and
+            investigate together to meet our impact experientially. We will
+            reach a deeper understanding on how to make impact more conscious,
+            how to impact out of inspiration, and how to know our SELF
+            intimately and authentically through impact.
           </p>
         </article>
       </div>
       <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 lg:mr-20 xl:w-1/3 2xl:w-1/4">
-          <Image src={manifestingProjected} alt="" />
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
+          <Image
+            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            src={manifestingProjected}
+            alt=""
+          />
           <h3>Manifesting and Projected Channels</h3>
           <p>
             Manifestors by definition are a motor connected to the throat, with
@@ -171,7 +220,11 @@ export default function Home() {
           </p>
         </article>
         <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
-          <Image src={angerTransformation} alt="" />
+          <Image
+            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            src={angerTransformation}
+            alt=""
+          />
           <h3>Anger and transformation</h3>
           <p>
             We call it &quot;the NOT SELF theme&quot;, we all have to deal with
@@ -208,9 +261,13 @@ export default function Home() {
           </p>
         </article>
       </div>
-      <div className="flex flex-row justify-center flex-wrap md:flex-nowrap w-full">
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
-          <Image src={peaceFlow} alt="" />
+      <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
+          <Image
+            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            src={peaceFlow}
+            alt=""
+          />
           <h3>Peace and flow</h3>
           <p>
             Signature is the basic energetic natural resonance, existing prior
@@ -232,6 +289,39 @@ export default function Home() {
             <br />
             What&apos;s our experience and how does that differ from when we
             started experimenting?
+          </p>
+        </article>
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
+          <Image
+            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            src={consciousUnconscious}
+            alt=""
+          />
+          <h3>Conscious vs Unconscious Manifestors</h3>
+          <p>
+            We each have two charts, the red and the black. The body (design)
+            and the personality. Unconscious and Conscious (meaning that which
+            is not available to the thought and that which is). We are a whole
+            greater than our parts.
+          </p>
+          <p>
+            The Personality is what we think we think we are, it&apos;s how we
+            see and experience ourselves, and it may be very different than what
+            we are as a whole being. What we perceive may also be very different
+            than what others experience of us, the way they see us.
+          </p>
+          <p>
+            What type is your black chart?
+            <br />
+            Do you &quot;know&quot; you are a Manifestor?
+            <br />
+            Or maybe you &quot;think&quot; you are a Projecter or Reflector?
+            <br />
+          </p>
+          <p>
+            In the retreat we will discuss the differences between being a
+            conscious Manifestor or an unconscious, and understand how it
+            affects our life, and what we can &quot;do&quot; about it.
           </p>
         </article>
       </div>
