@@ -70,9 +70,7 @@ export default function Home() {
           <br />
           Cancellations after June 1st - no refund.
         </p>
-        <h2>Images of the Venue</h2>
       </div>
-      <ImageGallery />
     </>
   );
 }

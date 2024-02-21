@@ -1,12 +1,19 @@
 'use client';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import SideMenu from './SideMenu';
 
 function MobileMenu() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [menuClosing, setMenuClosing] = useState(false);
+  const [width, setWidth] = useState(768);
+
+  useEffect(() => {
+    if (typeof window !== undefined) {
+      setWidth(window.innerWidth);
+    }
+  }, [setWidth]);
 
   const handleClose = (): void => {
     if (menuOpen) {
@@ -30,7 +37,7 @@ function MobileMenu() {
           <GiHamburgerMenu className="text-2xl" />
         </button>
       </nav>
-      {window.innerWidth < 641 ? (
+      {width < 641 ? (
         <SideMenu
           menuOpen={menuOpen}
           setMenuOpen={setMenuOpen}

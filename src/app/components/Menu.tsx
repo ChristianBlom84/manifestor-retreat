@@ -28,10 +28,16 @@ function Menu() {
         Register
       </Link>
       <Link
-        className={`text-black my-auto relative uppercase ${underLineStyle}`}
+        className={`mr-5 text-black my-auto relative uppercase ${underLineStyle}`}
         href="/team"
       >
         Team
+      </Link>
+      <Link
+        className={`text-black my-auto relative uppercase ${underLineStyle}`}
+        href="/venue"
+      >
+        Venue
       </Link>
     </nav>
   );

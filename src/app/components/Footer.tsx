@@ -30,7 +30,7 @@ function Footer() {
         <h2>
           <Link href="/team">Facilitating</Link>
         </h2>
-        <p>Milla Berglund and Pavaka Halel Katzir</p>
+        <p>Milla Berglund, Pavaka Halel Katzir and team</p>
         <Link className="inline" href="/team">
           <Image
             src={millaPavaka}

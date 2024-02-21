@@ -60,51 +60,6 @@ export default function Home() {
               Some topics we will cover and investigate:
             </h3>
             <ul className="flex items-center flex-col">
-              <div className="flex flex-row flex-wrap md:flex-nowrap justify-center">
-                <li className="sm:w-1/3 md:w-1/4 sm:mr-10 relative">
-                  <Link href="/topics">
-                    <Image
-                      className="w-2/3 sm:w-full m-auto"
-                      src={manifestorRelationships}
-                      alt=""
-                    />
-                    <p>Being a Manifestor (woman) in relationships.</p>
-                  </Link>
-                </li>
-                <li className="sm:w-1/3 md:w-1/4 md:mr-10">
-                  <Link href="/topics">
-                    <Image
-                      className="w-2/3 sm:w-full m-auto"
-                      src={manifestorAuthorities}
-                      alt=""
-                    />
-                    <p>
-                      The different Manifestor inner authorities: Emotional,
-                      splenic, ego
-                    </p>
-                  </Link>
-                </li>
-                <li className="sm:w-1/3 md:w-1/4 sm:mr-10">
-                  <Link href="/topics">
-                    <Image
-                      className="w-2/3 sm:w-full m-auto"
-                      src={informing}
-                      alt=""
-                    />
-                    <p>A deep dive into Informing</p>
-                  </Link>
-                </li>
-                <li className="sm:w-1/3 md:w-1/4">
-                  <Link href="/topics">
-                    <Image
-                      className="w-2/3 sm:w-full m-auto"
-                      src={impact}
-                      alt=""
-                    />
-                    <p>Impact</p>
-                  </Link>
-                </li>
-              </div>
               <div className="flex flex-wrap md:flex-nowrap flex-row justify-center">
                 <li className="sm:w-1/3 md:w-1/4 sm:mr-10">
                   <Link href="/topics">
@@ -125,6 +80,51 @@ export default function Home() {
                     />
                     <p>
                       Manifesting channels Vs. Projected channels Manifestors
+                    </p>
+                  </Link>
+                </li>
+                <li className="sm:w-1/3 md:w-1/4 sm:mr-10 relative">
+                  <Link href="/topics">
+                    <Image
+                      className="w-2/3 sm:w-full m-auto"
+                      src={manifestorRelationships}
+                      alt=""
+                    />
+                    <p>Being a Manifestor (woman) in relationships.</p>
+                  </Link>
+                </li>
+                <li className="sm:w-1/3 md:w-1/4">
+                  <Link href="/topics">
+                    <Image
+                      className="w-2/3 sm:w-full m-auto"
+                      src={informing}
+                      alt=""
+                    />
+                    <p>A deep dive into Informing</p>
+                  </Link>
+                </li>
+              </div>
+              <div className="flex flex-row flex-wrap md:flex-nowrap justify-center">
+                <li className="sm:w-1/3 md:w-1/4 sm:mr-10">
+                  <Link href="/topics">
+                    <Image
+                      className="w-2/3 sm:w-full m-auto"
+                      src={impact}
+                      alt=""
+                    />
+                    <p>Impact</p>
+                  </Link>
+                </li>
+                <li className="sm:w-1/3 md:w-1/4 md:mr-10">
+                  <Link href="/topics">
+                    <Image
+                      className="w-2/3 sm:w-full m-auto"
+                      src={manifestorAuthorities}
+                      alt=""
+                    />
+                    <p>
+                      The different Manifestor inner authorities: Emotional,
+                      splenic, ego
                     </p>
                   </Link>
                 </li>
@@ -179,65 +179,124 @@ export default function Home() {
           distance, and plenty of time to enjoy each other&apos;s company.
         </p>
       </section>
-      <section className="p-10 max-w-screen-lg">
+      <section className="p-5 max-w-screen-lg">
         <h2 className="text-center">Schedule</h2>
         <div className="flex items-center flex-col">
           <div className="flex flex-col items-center md:items-start md:flex-row flex-wrap md:flex-nowrap justify-center">
-            <div className="w-3/4 sm:w-1/2 md:w-1/4 mb-5 md:mr-20">
+            <div className="w-4/5 sm:w-1/2 md:w-1/4 mb-5 md:mr-20">
               <Image src={thursday} alt="Thursday" />
+              <h3>Arrival day - arrive at your own pace</h3>
               <ul>
-                <li>Arrival day - arrive at your own pace</li>
                 <li>
-                  17:00 opening ceremony - let&apos;s get to know each other
+                  <span className="font-semibold">17:00</span> Opening ceremony
+                  - let&apos;s get to know each other
                 </li>
-                <li>18:30 out to dinner together (optional)</li>
+                <li>
+                  <span className="font-semibold">18:30</span> Out to dinner
+                  together (optional)
+                </li>
               </ul>
             </div>
-            <div className="w-3/4 sm:w-1/2 md:w-1/4 mb-5 md:mr-20">
+            <div className="w-4/5 sm:w-1/2 md:w-1/4 mb-5 md:mr-20">
               <Image src={friday} alt="Friday" />
+              <h3>Understanding Manifestors</h3>
               <ul>
-                <li>08:00 - 09:00 Qi Gong</li>
-                <li>09:00 Morning snacks</li>
-                <li>10:00 - 11:30/12:00 Manifestor session</li>
-                <li>12:30 Lunch</li>
-                <li>15:00 - 17:00 Manifestor session</li>
-                <li>18:00 Kabalat Shabbat</li>
-                <li>Dinner time</li>
+                <li>
+                  <span className="font-semibold">08:00 - 09:00</span> Chi Kong
+                </li>
+                <li>
+                  <span className="font-semibold">09:00</span> Morning snacks
+                </li>
+                <li>
+                  <span className="font-semibold">10:00 - 11:30/12:00</span>{' '}
+                  Conscious VS. Unconscious + Manifesting VS. Projecting
+                  channels
+                </li>
+                <li>
+                  <span className="font-semibold">12:30</span> Lunch
+                </li>
+                <li>
+                  <span className="font-semibold">15:00 - 17:00</span> Being a
+                  Manifestor woman in (any) relationship
+                </li>
+                <li>
+                  <span className="font-semibold">18:00</span> Kabalat Shabbat
+                </li>
+                <li>
+                  <span className="font-semibold">Dinner time</span>
+                </li>
               </ul>
             </div>
-            <div className="w-3/4 sm:w-1/2 md:w-1/4 mb-5">
+            <div className="w-4/5 sm:w-1/2 md:w-1/4 mb-5">
               <Image src={saturday} alt="Saturday" />
+              <h3>The magic of mechanics (Strategy & Authority)</h3>
               <ul>
-                <li>08:00 - 09:00 Qi Gong</li>
-                <li>09:00 Morning snacks</li>
-                <li>10:00 - 11:30/12:00 Manifestor session</li>
-                <li>12:30 Lunch</li>
-                <li>15:00 - 17:00 Manifestor session</li>
-                <li>Dinner time</li>
-                <li>20:00 Music & Dancing</li>
+                <li>
+                  <span className="font-semibold">08:00 - 09:00</span> Chi Kong
+                </li>
+                <li>
+                  <span className="font-semibold">09:00 Morning snacks</span>
+                </li>
+                <li>
+                  <span className="font-semibold">10:00 - 11:30/12:00</span> A
+                  deep dive into informing + Impact
+                </li>
+                <li>
+                  <span className="font-semibold">12:30</span> Lunch
+                </li>
+                <li>
+                  <span className="font-semibold">15:00 - 17:00</span> The
+                  different inner authorities: Solar plexus, Spleen, Heart
+                </li>
+                <li>
+                  <span className="font-semibold">Dinner time</span>
+                </li>
+                <li>
+                  <span className="font-semibold">20:00</span> Music & Dancing
+                </li>
               </ul>
             </div>
           </div>
           <div className="flex flex-col items-center md:items-start md:flex-row flex-wrap md:flex-nowrap justify-center">
-            <div className="w-3/4 sm:w-1/2 md:w-1/4 mb-5 md:mr-20">
+            <div className="w-4/5 sm:w-1/2 md:w-1/4 mb-5 md:mr-20">
               <Image src={sunday} alt="Sunday" />
+              <h3>From not self to SELF</h3>
               <ul>
-                <li>08:00 - 09:00 Qi Gong</li>
-                <li>09:00 Morning snacks</li>
-                <li>10:00 - 11:30/12:00 Manifestor session</li>
-                <li>12:30 Lunch</li>
-                <li>15:00 - 17:00 Manifestor session</li>
-                <li>Dinner time</li>
-                <li>20:00 Music concert</li>
+                <li>
+                  <span className="font-semibold">08:00 - 09:00</span> Chi Kong
+                </li>
+                <li>
+                  <span className="font-semibold">09:00</span> Morning snacks
+                </li>
+                <li>
+                  <span className="font-semibold">10:00 - 11:30/12:00</span>{' '}
+                  Anger and transformation
+                </li>
+                <li>
+                  <span className="font-semibold">12:30</span> Lunch
+                </li>
+                <li>
+                  <span className="font-semibold">15:00 - 17:00</span> Peace and
+                  flow
+                </li>
+                <li>
+                  <span className="font-semibold">Dinner time</span>
+                </li>
+                <li>
+                  <span className="font-semibold">20:00</span> Music concert
+                </li>
               </ul>
             </div>
-            <div className="w-3/4 sm:w-1/2 md:w-1/4 mb-5">
+            <div className="w-4/5 sm:w-1/2 md:w-1/4 mb-5">
               <Image src={monday} alt="Monday" />
+              <h3>Departure day</h3>
               <ul>
-                <li>Departure day</li>
-                <li>08:00 Morning snacks</li>
                 <li>
-                  09:00 - 10:00 Closing ceremony - a morning to just BE together
+                  <span className="font-semibold">08:00</span> Morning snacks
+                </li>
+                <li>
+                  <span className="font-semibold">09:00 - 10:00</span> Closing
+                  ceremony - a morning to just BE together
                 </li>
                 <li>Leaving at your own pace</li>
               </ul>
