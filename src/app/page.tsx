@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Footer from './components/FooterHome';
 import logo from './images/logo/Logo2.jpg';
 import uniqueAdventure from './images/uniqueadventure.png';
 import manifestorRelationships from './images/ManifestorRelationships.png';
@@ -24,14 +25,14 @@ import millaPavaka from './images/MillaAndPavaka.png';
 export default function Home() {
   return (
     <>
-      <section className="p-10 pt-0 max-w-screen-xl">
+      <section className="p-5 pt-0 max-w-screen-xl">
         <div className="flex flex-row">
           <div className="flex flex-col justify-center text-center">
-            <h1 className="text-theme-red">
+            <h1 className="text-theme-red text-2xl md:text-3xl max-w-2xl mx-auto">
               Calling all beautiful lone wolves of the Manifestor clan -
               let&apos;s embark on a{' '}
               <Image
-                className="inline max-h-12 w-auto m-0"
+                className="inline max-h-8 md:max-h-10 w-auto m-0"
                 src={uniqueAdventure}
                 alt="unique adventure!"
               />
@@ -56,7 +57,7 @@ export default function Home() {
               music. All of this facilitated by Manifestor women deeply immersed
               living their HD experiment.
             </p>
-            <h3 className="font-bold">
+            <h3 className="font-semibold">
               Some topics we will cover and investigate:
             </h3>
             <ul className="flex items-center flex-col">
@@ -177,6 +178,11 @@ export default function Home() {
         <p>
           Evenings offer optional dinners at a nearby tavern, within walking
           distance, and plenty of time to enjoy each other&apos;s company.
+        </p>
+        <p>
+          <Link className="text-theme-red underline" href="/venue">
+            More info on the venue and photos.
+          </Link>
         </p>
       </section>
       <section className="p-5 max-w-screen-lg">
@@ -304,6 +310,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

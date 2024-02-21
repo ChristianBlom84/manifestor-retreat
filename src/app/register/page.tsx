@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Footer from '../components/Footer';
 import bedroomOne from '../images/bedroom-1.jpg.webp';
 import bedroomTwo from '../images/bedroom-2-single-beds.jpg.webp';
 import bedroomThree from '../images/bedroom-3-single-bed.jpg.webp';
@@ -71,6 +72,7 @@ export default function Home() {
           Cancellations after June 1st - no refund.
         </p>
       </div>
+      <Footer />
     </>
   );
 }

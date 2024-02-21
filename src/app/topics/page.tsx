@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Footer from '../components/FooterTopics';
 import manifestorRelationships from '../images/ManifestorRelationships.png';
 import manifestorAuthorities from '../images/TheDifferentManifestors.png';
 import informing from '../images/InformingDeepDive.png';
@@ -12,17 +13,6 @@ export default function Home() {
   return (
     <>
       <h1 className="mx-2 text-center">Topics</h1>
-      <p className="w-11/12 sm:w-4/5 lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto">
-        These are the topics we will be covering, in a journey to a deeper
-        understanding of what it is to be a Manifestor, and the experience of
-        the potential of living it truly.
-      </p>
-      <p className="w-11/12 sm:w-4/5 lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto">
-        We learn information for the <b>mental</b> part of us, experience
-        through somatic aura work to <b>embody</b> the knowledge, and
-        investigate together as a circle for our inspiration, the <b>spirit</b>{' '}
-        part of us.
-      </p>
       <div className="flex flex-row justify-center flex-wrap md:flex-nowrap">
         <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image
@@ -61,7 +51,7 @@ export default function Home() {
             alt=""
           />
           <h3>
-            Personal Authority – the beautiful differences in our Inner
+            Personal Authority - the beautiful differences in our Inner
             Authority
           </h3>
           <p>
@@ -71,7 +61,7 @@ export default function Home() {
           </p>
           <p>
             The main difference between us, and the main sameness on the other
-            hand, is inner authority. Emotional, Splenic or Ego – we each have a
+            hand, is inner authority. Emotional, Splenic or Ego - we each have a
             certain way of moving in the world, a distinct power to our
             manifesting, a special pace.
           </p>
@@ -101,7 +91,7 @@ export default function Home() {
           />
           <h3>A deep dive into Informing</h3>
           <p>
-            Informing – what does it mean? How do you do it? Will it look the
+            Informing - what does it mean? How do you do it? Will it look the
             same for everyone? Why does it feel so awkward sometimes?
           </p>
           <p>
@@ -325,6 +315,7 @@ export default function Home() {
           </p>
         </article>
       </div>
+      <Footer />
     </>
   );
 }

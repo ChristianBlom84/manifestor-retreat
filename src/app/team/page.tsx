@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Footer from '../components/Footer';
 import pavakaBodygraph from '../images/PavakaBodygraph.png';
 import pavakaPhoto from '../images/Pavaka.jpg';
 import pavakaHeadline from '../images/pavakaText.png';
@@ -134,6 +135,7 @@ export default function Home() {
           and impacting both inwards and outwards. See you with big curiosity.
         </p>
       </div>
+      <Footer />
     </>
   );
 }
