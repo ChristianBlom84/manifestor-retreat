@@ -68,7 +68,7 @@ const ImageGallery = () => {
     <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-5 mb-5 2xl:max-w-screen-2xl">
       {images.map((image, index) => (
         <div
-          className="md:max-h-36 lg:max-h-40 xl:max-h-48 2xl:max-h-60 overflow-hidden flex justify-center items-center"
+          className="md:max-h-36 lg:max-h-40 xl:max-h-48 2xl:max-h-60 overflow-hidden flex justify-center items-center cursor-pointer"
           key={index}
           onClick={() => handleImageClick(image)}
         >
