@@ -5,7 +5,7 @@ import clickHere from '../images/clickHere.png';
 
 function Footer() {
   return (
-    <footer className="sm:p-5 w-full relative overflow-hidden mt-10">
+    <footer className="sm:p-5 w-full relative overflow-hidden mt-5">
       <Image
         src={footerBackground}
         alt=""
@@ -17,11 +17,13 @@ function Footer() {
         }}
         sizes="100vw"
       />
-      <div className="flex flex-col relative items-center mt-10 w-11/12 sm:w-4/5 lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto mb-10">
+      <div className="flex flex-col relative items-center w-11/12 sm:w-4/5 lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto mb-10">
         <p className="mb-2">
-          These are the topics we will be covering, in a journey to a deeper
-          understanding of what it is to be a Manifestor, and the experience of
-          the potential of living it truly.
+          <span className="text-theme-red font-bold">
+            These are the topics we will be covering
+          </span>
+          , in a journey to a deeper understanding of what it is to be a
+          Manifestor, and the experience of the potential of living it truly.
         </p>
         <p className="mb-2">
           We learn information for the <b>mental</b> part of us, experience

@@ -17,6 +17,80 @@ export default function Home() {
         <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image
             className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            src={consciousUnconscious}
+            alt=""
+          />
+          <h3>Conscious vs Unconscious Manifestors</h3>
+          <p>
+            We each have two charts, the red and the black. The body (design)
+            and the personality. Unconscious and Conscious (meaning that which
+            is not available to the thought and that which is). We are a whole
+            greater than our parts.
+          </p>
+          <p>
+            The Personality is what we think we think we are, it&apos;s how we
+            see and experience ourselves, and it may be very different than what
+            we are as a whole being. What we perceive may also be very different
+            than what others experience of us, the way they see us.
+          </p>
+          <p>
+            What type is your black chart?
+            <br />
+            Do you &quot;know&quot; you are a Manifestor?
+            <br />
+            Or maybe you &quot;think&quot; you are a Projecter or Reflector?
+            <br />
+          </p>
+          <p>
+            In the retreat we will discuss the differences between being a
+            conscious Manifestor or an unconscious, and understand how it
+            affects our life, and what we can &quot;do&quot; about it.
+          </p>
+        </article>
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
+          <Image
+            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            src={manifestingProjected}
+            alt=""
+          />
+          <h3>Manifesting and Projected Channels</h3>
+          <p>
+            Manifestors by definition are a motor connected to the throat, with
+            no Sacral in the way of the energy to manifest.
+          </p>
+          <p>
+            The motor can be Solar plexus, Ego heart, or Root. It can be one
+            motor or more. They can be connected directly to the throat via one
+            of the Manifesting channels (21\45, 22\12, 35\36), or be connected
+            indirectly through other centers, via Projected channels.
+          </p>
+          <p>
+            The Ego can go through the G-center (21\25) to the throat, through
+            the spleen (26\44) to the throat or even spleen to the G to the
+            throat. The root can only be connected to the throat through the
+            spleen (or spleen to G to throat). So it can be a long way for that
+            manifestation energy!
+          </p>
+          <p>
+            What does it mean to have a direct connection, vs. a longer indirect
+            one?
+            <br />
+            What happens when the energy moves through another center on its
+            way?
+            <br />
+            What is it like to manifest through projected channels?
+          </p>
+          <p>
+            We&apos;ll discuss and investigate the different kinds of
+            Manifestation to understand our energy better, relax deeper into who
+            we are, accept, embrace and love our manifesting, just as it is.
+          </p>
+        </article>
+      </div>
+      <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
+          <Image
+            className="w-2/3 sm:w-3/4 md:w-full m-auto"
             src={manifestorRelationships}
             alt=""
           />
@@ -45,45 +119,6 @@ export default function Home() {
           </p>
         </article>
         <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
-          <Image
-            className="w-2/3 sm:w-3/4 md:w-full m-auto"
-            src={manifestorAuthorities}
-            alt=""
-          />
-          <h3>
-            Personal Authority - the beautiful differences in our Inner
-            Authority
-          </h3>
-          <p>
-            Even though we are all Manifestors here, living in the same type of
-            energy field, Aura, we all navigate life very differently, according
-            to centers, channels, circuity, profile and more.
-          </p>
-          <p>
-            The main difference between us, and the main sameness on the other
-            hand, is inner authority. Emotional, Splenic or Ego - we each have a
-            certain way of moving in the world, a distinct power to our
-            manifesting, a special pace.
-          </p>
-          <p>
-            Inner authority comes before strategy for us Manifestors. It is the
-            most important. We wait for the universe to push us, through our
-            inner authority, that&apos;s the mechanics of correctness for us.
-          </p>
-          <p>
-            Understanding our inner authority is crucial. Connecting with it
-            deeply is what brings peace to our lives. So in the retreat we will
-            learn about the different authorities, discuss them, and investigate
-            them together.
-          </p>
-          <p>
-            We will work in groups according to the different authorities, and
-            experiment difference and sameness.
-          </p>
-        </article>
-      </div>
-      <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image
             className="w-2/3 sm:w-3/4 md:w-full m-auto"
             src={informing}
@@ -118,7 +153,9 @@ export default function Home() {
             deeper sense.
           </p>
         </article>
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
+      </div>
+      <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image
             className="w-2/3 sm:w-3/4 md:w-full m-auto"
             src={impact}
@@ -168,48 +205,46 @@ export default function Home() {
             intimately and authentically through impact.
           </p>
         </article>
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
+          <Image
+            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            src={manifestorAuthorities}
+            alt=""
+          />
+          <h3>
+            Personal Authority - the beautiful differences in our Inner
+            Authority
+          </h3>
+          <p>
+            Even though we are all Manifestors here, living in the same type of
+            energy field, Aura, we all navigate life very differently, according
+            to centers, channels, circuity, profile and more.
+          </p>
+          <p>
+            The main difference between us, and the main sameness on the other
+            hand, is inner authority. Emotional, Splenic or Ego - we each have a
+            certain way of moving in the world, a distinct power to our
+            manifesting, a special pace.
+          </p>
+          <p>
+            Inner authority comes before strategy for us Manifestors. It is the
+            most important. We wait for the universe to push us, through our
+            inner authority, that&apos;s the mechanics of correctness for us.
+          </p>
+          <p>
+            Understanding our inner authority is crucial. Connecting with it
+            deeply is what brings peace to our lives. So in the retreat we will
+            learn about the different authorities, discuss them, and investigate
+            them together.
+          </p>
+          <p>
+            We will work in groups according to the different authorities, and
+            experiment difference and sameness.
+          </p>
+        </article>
       </div>
       <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
         <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
-          <Image
-            className="w-2/3 sm:w-3/4 md:w-full m-auto"
-            src={manifestingProjected}
-            alt=""
-          />
-          <h3>Manifesting and Projected Channels</h3>
-          <p>
-            Manifestors by definition are a motor connected to the throat, with
-            no Sacral in the way of the energy to manifest.
-          </p>
-          <p>
-            The motor can be Solar plexus, Ego heart, or Root. It can be one
-            motor or more. They can be connected directly to the throat via one
-            of the Manifesting channels (21\45, 22\12, 35\36), or be connected
-            indirectly through other centers, via Projected channels.
-          </p>
-          <p>
-            The Ego can go through the G-center (21\25) to the throat, through
-            the spleen (26\44) to the throat or even spleen to the G to the
-            throat. The root can only be connected to the throat through the
-            spleen (or spleen to G to throat). So it can be a long way for that
-            manifestation energy!
-          </p>
-          <p>
-            What does it mean to have a direct connection, vs. a longer indirect
-            one?
-            <br />
-            What happens when the energy moves through another center on its
-            way?
-            <br />
-            What is it like to manifest through projected channels?
-          </p>
-          <p>
-            We&apos;ll discuss and investigate the different kinds of
-            Manifestation to understand our energy better, relax deeper into who
-            we are, accept, embrace and love our manifesting, just as it is.
-          </p>
-        </article>
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
           <Image
             className="w-2/3 sm:w-3/4 md:w-full m-auto"
             src={angerTransformation}
@@ -250,9 +285,7 @@ export default function Home() {
             new perspective. Transforming it and transforming us.
           </p>
         </article>
-      </div>
-      <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
+        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
           <Image
             className="w-2/3 sm:w-3/4 md:w-full m-auto"
             src={peaceFlow}
@@ -279,39 +312,6 @@ export default function Home() {
             <br />
             What&apos;s our experience and how does that differ from when we
             started experimenting?
-          </p>
-        </article>
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
-          <Image
-            className="w-2/3 sm:w-3/4 md:w-full m-auto"
-            src={consciousUnconscious}
-            alt=""
-          />
-          <h3>Conscious vs Unconscious Manifestors</h3>
-          <p>
-            We each have two charts, the red and the black. The body (design)
-            and the personality. Unconscious and Conscious (meaning that which
-            is not available to the thought and that which is). We are a whole
-            greater than our parts.
-          </p>
-          <p>
-            The Personality is what we think we think we are, it&apos;s how we
-            see and experience ourselves, and it may be very different than what
-            we are as a whole being. What we perceive may also be very different
-            than what others experience of us, the way they see us.
-          </p>
-          <p>
-            What type is your black chart?
-            <br />
-            Do you &quot;know&quot; you are a Manifestor?
-            <br />
-            Or maybe you &quot;think&quot; you are a Projecter or Reflector?
-            <br />
-          </p>
-          <p>
-            In the retreat we will discuss the differences between being a
-            conscious Manifestor or an unconscious, and understand how it
-            affects our life, and what we can &quot;do&quot; about it.
           </p>
         </article>
       </div>
