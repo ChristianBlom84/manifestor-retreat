@@ -17,7 +17,7 @@ function Footer() {
         }}
         sizes="100vw"
       />
-      <div className="flex flex-col relative items-center w-11/12 sm:w-4/5 lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto mb-10">
+      <div className="flex flex-col relative w-11/12 sm:w-4/5 lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto mb-10">
         <p className="mb-2">
           <span className="text-theme-red font-bold">
             These are the topics we will be covering
@@ -36,7 +36,10 @@ function Footer() {
           radical way. If this resonates with you, please join us and be a part
           of the energetic &quot;spaceship&quot; we build together.
         </p>
-        <Link className="text-xl text-black font-semibold" href="/register">
+        <Link
+          className="text-xl text-black font-semibold text-center self-center"
+          href="/register"
+        >
           For the registration details{' '}
           <Image
             className="inline max-h-10 w-auto"
