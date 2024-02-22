@@ -2,10 +2,8 @@
 
 import React, { useRef, useState } from 'react';
 import Image, { StaticImageData } from 'next/image';
-import bedroomOne from '../images/bedroom-1.jpg.webp';
 import bedroomTwo from '../images/bedroom-2-single-beds.jpg.webp';
 import bedroomThree from '../images/bedroom-3-single-bed.jpg.webp';
-import bedroomFour from '../images/bedroom-4-2-double-beds.jpg.webp';
 import oceanView from '../images/ocean-view1.jpg.webp';
 import venueOne from '../images/Venue1.jpg';
 import venueTwo from '../images/Venue2.jpg';
@@ -26,10 +24,8 @@ const ImageGallery = () => {
   );
   const modalRef = useRef<HTMLDivElement>(null);
   const images = [
-    bedroomOne,
     bedroomTwo,
     bedroomThree,
-    bedroomFour,
     oceanView,
     venueOne,
     venueTwo,

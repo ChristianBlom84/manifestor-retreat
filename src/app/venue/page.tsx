@@ -82,7 +82,6 @@ export default function Home() {
       <video
         width="640"
         height="357"
-        controls
         preload="auto"
         muted
         playsInline
