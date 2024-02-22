@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '../components/Footer';
 import ImageGallery from '../components/ImageGallery';
-// import clickHere from '../images/';
 
 export default function Home() {
   return (
@@ -80,6 +79,20 @@ export default function Home() {
           </Link>
         </p>
       </div>
+      <video
+        width="640"
+        height="357"
+        controls
+        preload="auto"
+        muted
+        playsInline
+        autoPlay
+        loop
+        className="mb-5"
+      >
+        <source src="/beachVideo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
       <ImageGallery />
       <Footer />
     </>
