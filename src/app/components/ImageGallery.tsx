@@ -17,6 +17,11 @@ import venueNine from '../images/Venue9.jpg';
 import venueTen from '../images/Venue10.jpg';
 import venueEleven from '../images/Venue11.jpg';
 import venueTwelve from '../images/Venue12.jpg';
+import venueThirteen from '../images/Venue13.png';
+import venueFourteen from '../images/Venue14.png';
+import venueFifteen from '../images/Venue15.png';
+import venueSixteen from '../images/Venue16.png';
+import venueSeventeen from '../images/Venue17.png';
 
 const ImageGallery = () => {
   const [selectedImage, setSelectedImage] = useState<StaticImageData | null>(
@@ -24,21 +29,26 @@ const ImageGallery = () => {
   );
   const modalRef = useRef<HTMLDivElement>(null);
   const images = [
-    bedroomTwo,
-    bedroomThree,
-    oceanView,
-    venueOne,
-    venueTwo,
-    venueThree,
-    venueFour,
-    venueFive,
-    venueSix,
-    venueSeven,
-    venueEight,
-    venueNine,
-    venueTen,
-    venueEleven,
-    venueTwelve,
+    venueThirteen,
+    venueFourteen,
+    venueFifteen,
+    venueSixteen,
+    venueSeventeen,
+    // bedroomTwo,
+    // bedroomThree,
+    // oceanView,
+    // venueOne,
+    // venueTwo,
+    // venueThree,
+    // venueFour,
+    // venueFive,
+    // venueSix,
+    // venueSeven,
+    // venueEight,
+    // venueNine,
+    // venueTen,
+    // venueEleven,
+    // venueTwelve,
   ];
 
   const handleImageClick = (image: any) => {
@@ -61,10 +71,10 @@ const ImageGallery = () => {
   };
 
   return (
-    <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-5 mb-5 2xl:max-w-screen-2xl">
+    <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 mx-5 mb-5 2xl:max-w-screen-2xl">
       {images.map((image, index) => (
         <div
-          className="md:max-h-36 lg:max-h-40 xl:max-h-48 2xl:max-h-60 overflow-hidden flex justify-center items-center cursor-pointer"
+          className="flex justify-center items-center cursor-pointer"
           key={index}
           onClick={() => handleImageClick(image)}
         >
@@ -76,15 +86,18 @@ const ImageGallery = () => {
           className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-75 flex justify-center items-center z-40"
           onClick={(e) => handleCloseOutsideModal(e)}
         >
-          <div className="relative" ref={modalRef}>
+          <div
+            className="relative w-[70%] h-[80%] flex justify-center items-center"
+            ref={modalRef}
+          >
             <span
-              className="absolute top-2 right-2 text-white cursor-pointer text-2xl"
+              className="absolute top-2 right-2 text-white cursor-pointer text-4xl"
               onClick={handleCloseModal}
             >
               &times;
             </span>
             <Image
-              className="w-full h-auto"
+              className="w-auto h-full max-w-full max-h-full m-auto"
               src={selectedImage}
               alt={`${selectedImage}`}
             />
