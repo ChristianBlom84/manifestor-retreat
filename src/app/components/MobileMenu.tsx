@@ -29,7 +29,7 @@ function MobileMenu() {
 
   return (
     <>
-      <nav className="sm:p-1 sm:p-2 text-center text-theme-red font-bold text-lg bg-white h-10 fixed w-full top-0 left-0 sm:hidden">
+      <nav className="sm:p-1 sm:p-2 text-center text-theme-red font-bold text-lg bg-white h-10 fixed w-full top-0 left-0 z-10 sm:hidden">
         <button
           className="flex justify-center items-center bg-none text-black p-0 w-10 h-10 ml-auto rounded-full transition-all duration-500 hover:border-black hover:border sm:hidden"
           onClick={() => setMenuOpen(!menuOpen)}

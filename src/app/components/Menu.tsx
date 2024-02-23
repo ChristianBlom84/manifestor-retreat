@@ -8,7 +8,7 @@ function Menu() {
   hover:before:w-full hover:before:h-0.5 hover:text-slate-800`;
 
   return (
-    <nav className="sm:p-1 sm:p-2 text-center text-theme-red font-bold text-lg bg-white h-10 fixed w-full top-0 left-0 hidden sm:block">
+    <nav className="sm:p-1 sm:p-2 text-center text-theme-red font-bold text-lg bg-white h-10 fixed w-full top-0 left-0 z-10 hidden sm:block">
       <Link
         className={`mr-5 text-black my-auto relative uppercase ${underLineStyle}`}
         href="/"

@@ -20,6 +20,8 @@ import footerBackground from './images/background-06.jpg';
 import creteMap from './images/CreteMap.jpg';
 import cretePhotos from './images/CretePic.png';
 import venuePic from './images/Venue7.jpg';
+import venueHomePage from './images/VenueHomePage.webp';
+import venueHomePageTwo from './images/VenueHomePageTwo.webp';
 import millaPavaka from './images/MillaAndPavaka.png';
 
 export default function Home() {
@@ -155,7 +157,11 @@ export default function Home() {
         </div>
       </section>
       <section className="p-2 sm:px-10 sm:pt-10 pb-0 text-center">
-        <Image className="w-full m-auto mb-4" src={venuePic} alt="" />
+        <Image
+          className="w-full m-auto mb-4 max-w-screen-lg"
+          src={venueHomePage}
+          alt="Image of the venue"
+        />
         <h2>A beach retreat</h2>
         <p className="mb-1">
           Our venue is a little haven, a comfortable beach front Vila located in
@@ -184,6 +190,11 @@ export default function Home() {
             More info on the venue and photos.
           </Link>
         </p>
+        <Image
+          className="w-full m-auto mb-4 max-w-screen-lg"
+          src={venueHomePageTwo}
+          alt="Image of the venue"
+        />
       </section>
       <section className="p-5 max-w-screen-lg">
         <h2 className="text-center">Schedule</h2>
