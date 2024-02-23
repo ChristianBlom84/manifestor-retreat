@@ -87,7 +87,7 @@ const ImageGallery = () => {
           onClick={(e) => handleCloseOutsideModal(e)}
         >
           <div
-            className="relative w-[70%] h-[80%] flex justify-center items-center"
+            className="relative md:w-[70%] md:h-[80%] flex justify-center items-center"
             ref={modalRef}
           >
             <span
@@ -97,7 +97,7 @@ const ImageGallery = () => {
               &times;
             </span>
             <Image
-              className="w-auto h-full max-w-full max-h-full m-auto"
+              className="w-auto h-auto max-w-full max-h-full m-auto"
               src={selectedImage}
               alt={`${selectedImage}`}
             />
