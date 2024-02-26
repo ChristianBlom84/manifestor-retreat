@@ -22,6 +22,10 @@ import venueFourteen from '../images/Venue14.png';
 import venueFifteen from '../images/Venue15.png';
 import venueSixteen from '../images/Venue16.png';
 import venueSeventeen from '../images/Venue17.png';
+import venueEighteen from '../images/Venue18.png';
+import venueNineteen from '../images/Venue19.png';
+import venueTwenty from '../images/Venue20.png';
+import venueTwentyone from '../images/Venue21.png';
 
 const ImageGallery = () => {
   const [selectedImage, setSelectedImage] = useState<StaticImageData | null>(
@@ -31,9 +35,13 @@ const ImageGallery = () => {
   const images = [
     venueThirteen,
     venueFourteen,
-    venueFifteen,
     venueSixteen,
     venueSeventeen,
+    venueEighteen,
+    venueNineteen,
+    venueTwenty,
+    venueFifteen,
+    venueTwentyone,
     // bedroomTwo,
     // bedroomThree,
     // oceanView,
