@@ -58,11 +58,6 @@ export default function Home() {
           meal.
         </p>
         <p>
-          For dinner we can go out together or apart to the Taverns in the
-          village, a walking distance away. Prices are around 12 euros for a
-          meal.
-        </p>
-        <p>
           It is also possible to buy food in the supermarket located 100 M from
           the house, and make your own dinner. There are kitchens or kitchenette
           in each apartment/part of the house.
