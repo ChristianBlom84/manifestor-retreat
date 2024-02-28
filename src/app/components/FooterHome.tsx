@@ -58,7 +58,7 @@ function Footer() {
             ></Image>
           </Link>
         </p>
-        <div className="text-center w-5/6 sm:w-3/4 lg:w-3/5 text-center p-2 bg-white/70 shadow-[inset_0_0_40px_0_rgba(255,255,255,1)] rounded-sm my-10">
+        <div className="text-center w-5/6 sm:w-3/4 lg:w-3/5 p-2 bg-white/70 shadow-[inset_0_0_40px_0_rgba(255,255,255,1)] rounded-sm my-10">
           <h2>How to join us</h2>
           <p className="mb-2">
             If you hear the call and it&apos;s correct for you, we would love
