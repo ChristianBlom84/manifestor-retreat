@@ -16,7 +16,7 @@ export default function Home() {
       <div className="flex flex-row justify-center flex-wrap md:flex-nowrap">
         <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image
-            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            className="w-2/3 sm:w-3/4 md:w-full 3xl:w-3/4 m-auto"
             src={consciousUnconscious}
             alt=""
           />
@@ -49,7 +49,7 @@ export default function Home() {
         </article>
         <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
           <Image
-            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            className="w-2/3 sm:w-3/4 md:w-full 3xl:w-3/4 m-auto"
             src={manifestingProjected}
             alt=""
           />
@@ -90,7 +90,7 @@ export default function Home() {
       <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
         <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image
-            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            className="w-2/3 sm:w-3/4 md:w-full 3xl:w-3/4 m-auto"
             src={manifestorRelationships}
             alt=""
           />
@@ -120,7 +120,7 @@ export default function Home() {
         </article>
         <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
           <Image
-            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            className="w-2/3 sm:w-3/4 md:w-full 3xl:w-3/4 m-auto"
             src={informing}
             alt=""
           />
@@ -157,7 +157,7 @@ export default function Home() {
       <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
         <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image
-            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            className="w-2/3 sm:w-3/4 md:w-full 3xl:w-3/4 m-auto"
             src={impact}
             alt=""
           />
@@ -207,7 +207,7 @@ export default function Home() {
         </article>
         <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
           <Image
-            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            className="w-2/3 sm:w-3/4 md:w-full 3xl:w-3/4 m-auto"
             src={manifestorAuthorities}
             alt=""
           />
@@ -246,7 +246,7 @@ export default function Home() {
       <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
         <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image
-            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            className="w-2/3 sm:w-3/4 md:w-full 3xl:w-3/4 m-auto"
             src={angerTransformation}
             alt=""
           />
@@ -287,7 +287,7 @@ export default function Home() {
         </article>
         <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
           <Image
-            className="w-2/3 sm:w-3/4 md:w-full m-auto"
+            className="w-2/3 sm:w-3/4 md:w-full 3xl:w-3/4 m-auto"
             src={peaceFlow}
             alt=""
           />
