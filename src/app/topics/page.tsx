@@ -13,7 +13,20 @@ export default function Home() {
   return (
     <>
       <h1 className="mx-2 text-center">Topics</h1>
-      <div className="flex flex-row justify-center flex-wrap md:flex-nowrap">
+      <p className="text-center">
+        A talk about Manifestors by Pavaka at the HD Rave Festival 2024
+      </p>
+      <div className="w-full min-w-80 max-w-2xl mx-auto">
+        <div className="relative w-full overflow-hidden pt-[56.25%]">
+          <iframe
+            className="absolute top-0 left-0 right-0 w-full h-full border-none"
+            src="https://www.youtube-nocookie.com/embed/PrzxhRl31CA"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+      <div className="flex flex-row justify-center flex-wrap md:flex-nowrap mt-10">
         <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image
             className="w-2/3 sm:w-3/4 md:w-full 3xl:w-3/4 m-auto"
