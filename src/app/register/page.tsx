@@ -15,9 +15,6 @@ export default function Home() {
       <div className="m-2">
         <h2>Prices</h2>
         <p>
-          Early early bird (ends 28/2):{' '}
-          <span className="font-semibold">918€</span>
-          <br />
           Early bird price (ends 31/3):{' '}
           <span className="font-semibold">1020€</span>
           <br />
