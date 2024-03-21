@@ -15,10 +15,10 @@ export default function Home() {
       <div className="m-2">
         <h2>Prices</h2>
         <p>
-          Early bird price (ends 31/3):{' '}
+          Early bird price (ends 14/4):{' '}
           <span className="font-semibold">1020€</span>
           <br />
-          From April 1st: <span className="font-semibold">1120€</span>
+          From April 15th: <span className="font-semibold">1120€</span>
           <br />
           Two single rooms available{' '}
           <span className="font-semibold">1300€</span> - first come, first
