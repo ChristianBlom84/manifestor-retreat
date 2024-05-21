@@ -219,22 +219,21 @@ export default function Home() {
               <h3>Understanding Manifestors</h3>
               <ul>
                 <li>
-                  <span className="font-semibold">08:00 - 09:00</span> Chi Kong
+                  <span className="font-semibold">08:00 - 09:00</span> Morning movement
                 </li>
                 <li>
                   <span className="font-semibold">09:00</span> Morning snacks
                 </li>
                 <li>
                   <span className="font-semibold">10:00 - 11:30/12:00</span>{' '}
-                  Conscious VS. Unconscious + Manifesting VS. Projecting
-                  channels
+                  Conscious VS. Unconscious
                 </li>
                 <li>
                   <span className="font-semibold">12:30</span> Lunch
                 </li>
                 <li>
-                  <span className="font-semibold">15:00 - 17:00</span> Being a
-                  Manifestor woman in (any) relationship
+                  <span className="font-semibold">15:00 - 17:00</span> Manifesting VS. Projecting
+                  channels
                 </li>
                 <li>
                   <span className="font-semibold">18:00</span> Kabalat Shabbat
@@ -249,7 +248,7 @@ export default function Home() {
               <h3>The magic of mechanics (Strategy & Authority)</h3>
               <ul>
                 <li>
-                  <span className="font-semibold">08:00 - 09:00</span> Chi Kong
+                  <span className="font-semibold">08:00 - 09:00</span> Morning movement
                 </li>
                 <li>
                   <span className="font-semibold">09:00 Morning snacks</span>
@@ -280,7 +279,7 @@ export default function Home() {
               <h3>From not self to SELF</h3>
               <ul>
                 <li>
-                  <span className="font-semibold">08:00 - 09:00</span> Chi Kong
+                  <span className="font-semibold">08:00 - 09:00</span> Morning movement
                 </li>
                 <li>
                   <span className="font-semibold">09:00</span> Morning snacks
