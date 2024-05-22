@@ -219,7 +219,8 @@ export default function Home() {
               <h3>Understanding Manifestors</h3>
               <ul>
                 <li>
-                  <span className="font-semibold">08:00 - 09:00</span> Morning movement
+                  <span className="font-semibold">08:00 - 09:00</span> Morning
+                  movement
                 </li>
                 <li>
                   <span className="font-semibold">09:00</span> Morning snacks
@@ -232,8 +233,8 @@ export default function Home() {
                   <span className="font-semibold">12:30</span> Lunch
                 </li>
                 <li>
-                  <span className="font-semibold">15:00 - 17:00</span> Manifesting VS. Projecting
-                  channels
+                  <span className="font-semibold">15:00 - 17:00</span>{' '}
+                  Manifesting VS. Projecting channels
                 </li>
                 <li>
                   <span className="font-semibold">18:00</span> Kabalat Shabbat
@@ -248,7 +249,8 @@ export default function Home() {
               <h3>The magic of mechanics (Strategy & Authority)</h3>
               <ul>
                 <li>
-                  <span className="font-semibold">08:00 - 09:00</span> Morning movement
+                  <span className="font-semibold">08:00 - 09:00</span> Morning
+                  movement
                 </li>
                 <li>
                   <span className="font-semibold">09:00 Morning snacks</span>
@@ -279,7 +281,8 @@ export default function Home() {
               <h3>From not self to SELF</h3>
               <ul>
                 <li>
-                  <span className="font-semibold">08:00 - 09:00</span> Morning movement
+                  <span className="font-semibold">08:00 - 09:00</span> Morning
+                  movement
                 </li>
                 <li>
                   <span className="font-semibold">09:00</span> Morning snacks
