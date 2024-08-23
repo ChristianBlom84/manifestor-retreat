@@ -7,8 +7,9 @@ import millaBodygraph from '../images/MillaBodygraph.png';
 import millaPhoto from '../images/Milla.jpg';
 import millaHeadline from '../images/millaText.png';
 import ihdsCertified from '../images/Certified-pro-transparent.png';
-import etiPhoto from '../images/Eti.jpg';
+import karinPhoto from '../images/Karin.jpg';
 import shirPhoto from '../images/Shir.jpg';
+import violaPhoto from '../images/Viola.jpg';
 
 export default function Home() {
   return (
