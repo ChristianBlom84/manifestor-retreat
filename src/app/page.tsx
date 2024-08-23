@@ -316,7 +316,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-2 sm:pt-10 pb-0 max-w-lg text-center">
+      <section className="py-2 px-2 sm:px-0 sm:pt-10 pb-0 w-11/12 max-w-lg text-center">
         <h2>A forest retreat</h2>
         <p className="mb-2">
           Our venue is a haven, a big and beautiful Spanish estate located in

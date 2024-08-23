@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <h1 className="mx-2 text-center">Welcome to a forest retreat</h1>
-      <div className="max-w-lg mx-auto">
+      <div className="w-11/12 max-w-lg mx-auto">
         <p>
           Our venue is a haven! A big and beautiful Spanish estate, an hour
           outside Barcelona in Sitges, Pendés. Located in a beautiful forest
