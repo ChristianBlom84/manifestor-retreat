@@ -1,31 +1,15 @@
 'use client';
-
 import React, { useRef, useState } from 'react';
 import Image, { StaticImageData } from 'next/image';
-import bedroomTwo from '../images/bedroom-2-single-beds.jpg.webp';
-import bedroomThree from '../images/bedroom-3-single-bed.jpg.webp';
-import oceanView from '../images/ocean-view1.jpg.webp';
-import venueOne from '../images/Venue1.jpg';
-import venueTwo from '../images/Venue2.jpg';
-import venueThree from '../images/Venue3.jpg';
-import venueFour from '../images/Venue4.jpg';
-import venueFive from '../images/Venue5.jpg';
-import venueSix from '../images/Venue6.jpg';
-import venueSeven from '../images/Venue7.jpg';
-import venueEight from '../images/Venue8.jpg';
-import venueNine from '../images/Venue9.jpg';
-import venueTen from '../images/Venue10.jpg';
-import venueEleven from '../images/Venue11.jpg';
-import venueTwelve from '../images/Venue12.jpg';
-import venueThirteen from '../images/Venue13.png';
-import venueFourteen from '../images/Venue14.png';
-import venueFifteen from '../images/Venue15.png';
-import venueSixteen from '../images/Venue16.png';
-import venueSeventeen from '../images/Venue17.png';
-import venueEighteen from '../images/Venue18.png';
-import venueNineteen from '../images/Venue19.png';
-import venueTwenty from '../images/Venue20.png';
-import venueTwentyone from '../images/Venue21.png';
+import aerialView from '../images/AerialView.png';
+import landscape from '../images/Landscape.png';
+import food from '../images/Food.png';
+import house from '../images/House.png';
+import rooms from '../images/Rooms.png';
+import outsideOne from '../images/Spot-outside-1.png';
+import outsideTwo from '../images/Spot-outside-2.png';
+import studio from '../images/Studio.png';
+import view from '../images/View.png';
 
 const ImageGallery = () => {
   const [selectedImage, setSelectedImage] = useState<StaticImageData | null>(
@@ -33,30 +17,15 @@ const ImageGallery = () => {
   );
   const modalRef = useRef<HTMLDivElement>(null);
   const images = [
-    venueThirteen,
-    venueFourteen,
-    venueSixteen,
-    venueSeventeen,
-    venueEighteen,
-    venueNineteen,
-    venueTwenty,
-    venueFifteen,
-    venueTwentyone,
-    // bedroomTwo,
-    // bedroomThree,
-    // oceanView,
-    // venueOne,
-    // venueTwo,
-    // venueThree,
-    // venueFour,
-    // venueFive,
-    // venueSix,
-    // venueSeven,
-    // venueEight,
-    // venueNine,
-    // venueTen,
-    // venueEleven,
-    // venueTwelve,
+    aerialView,
+    landscape,
+    food,
+    house,
+    rooms,
+    outsideOne,
+    outsideTwo,
+    studio,
+    view,
   ];
 
   const handleImageClick = (image: any) => {

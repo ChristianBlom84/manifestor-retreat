@@ -6,61 +6,42 @@ import ImageGallery from '../components/ImageGallery';
 export default function Home() {
   return (
     <>
-      <h1 className="mx-2 text-center">Welcome to a beach retreat</h1>
-      <div className="w-11/12 sm:w-4/5 lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto">
+      <h1 className="mx-2 text-center">Welcome to a forest retreat</h1>
+      <div className="max-w-lg mx-auto">
         <p>
-          Our venue is a little haven, a comfortable beach front Vila located in
-          Ferma, a magical little village on the coast of the island Crete in
-          Greece. The next door villa is ours too, 2 perfect Airbnb venues that
-          can fit around 30 of us.
+          Our venue is a haven! A big and beautiful Spanish estate, an hour
+          outside Barcelona in Sitges, Pendés. Located in a beautiful forest
+          surroundings and with no neighbors around, it&apos;s the perfect spot
+          for an intimate cozy fall Manifestor sisterhood gathering.
         </p>
         <p>
-          We have our own private Mediterranean beach, all for ourselves! With a
-          shaded wooden deck with sun beds and chairs for a unique beach
-          experience. The Mediterranean is a warm sea and in June you can enjoy
-          the water, and swimming if you like.
-        </p>
-        <p>We have a Greek Sauna in the villa as well.</p>
-        <p>
-          Our activities will be held in a big beautiful (90sqm) studio with
-          wooden floors and big windows. It&apos;s the perfect clean space to
-          move, sit, dance, talk, sing, and be. Our sacred temple.
+          This huge amazing mansion has plenty of room to relax, together and/or
+          alone - and for the brave ones there is a pool!
         </p>
         <p>
-          The rooms are simple, beautiful and comfy, with each apartment/room
-          (sleeping 2 or 4 depending on the house) having a kitchenette, private
-          toilets and shower.
+          We offer different rooms for different prices, so you can make the
+          correct choice for you and enjoy your vacation fully. All rooms are
+          clean, beautiful and comfortable.
         </p>
         <p>
-          Each room has 2 single beds, so we share in pairs. Sharing rooms is a
-          part of the experience (we share a room too!), meeting Manifestor
-          sisters from all over the world and befriending. Sharing space with a
-          Manifestor is comfortable and communication is easier, we think you
-          are going to enjoy it.
+          We have an early bird price running till October 15th, so lots of time
+          for clarity. But we do inform - we have limited space available (26
+          spots), and of course limited amount of rooms in every lodging
+          category.
         </p>
         <p>
-          If you are coming with a friend you are welcome to stay together of
-          course, but if you are not - we are sorting rooms according to inner
-          authority, and sameness as much as possible. So emotional together,
-          splenic non emotional together etc.
+          Sharing arrangements is based on same lodging category choice and (as
+          much as possible) - on same authority. Sharing rooms is always part of
+          the fun! You meet your sisters and loving exciting connections are
+          often made and go with us after the retreat.
         </p>
         <h2>Meals</h2>
         <p>We take care of your breakfast and lunch!</p>
         <p>
-          In the morning we have a light snack meal (fruits, granola, yoghurt,
-          bread and butter), and for lunch we have rich vegetarian meals,
-          homemade especially for us and catered to our villa. A different
-          Mediterranean meal each day.
-        </p>
-        <p>
-          For dinner we can go out together or apart to the Taverns in the
-          village, within walking distance. Prices are around 12 euros for a
-          meal.
-        </p>
-        <p>
-          It is also possible to buy food in the supermarket located 100 M from
-          the house, and make your own dinner. There are kitchens or kitchenette
-          in each apartment/part of the house.
+          All prices include 3 delicious Mediterranean meals a day, made for us
+          by a private chef. Vegetarian breakfast and lunch, and an omnivore
+          dinner. Throughout the day, a coffee/tea cart, with snacks, will be
+          available.
         </p>
         <p>
           This is an invitation to an easy going, comfortable and pleasurable
@@ -74,19 +55,6 @@ export default function Home() {
           </Link>
         </p>
       </div>
-      <video
-        width="640"
-        height="357"
-        preload="auto"
-        muted
-        playsInline
-        autoPlay
-        loop
-        className="mb-5"
-      >
-        <source src="/beachVideo.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
       <ImageGallery />
       <Footer />
     </>

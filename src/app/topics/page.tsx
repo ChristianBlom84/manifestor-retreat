@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import Footer from '../components/FooterTopics';
-import manifestorRelationships from '../images/ManifestorRelationships.png';
-import manifestorAuthorities from '../images/TheDifferentManifestors.png';
+import manifestorAuthorities from '../images/InnerAuthorities.png';
 import informing from '../images/InformingDeepDive.png';
 import consciousUnconscious from '../images/ConsciousVSUnconscious.png';
 import manifestingProjected from '../images/ManifestingChannelsVSProjected.png';
-import angerTransformation from '../images/AngerTransformation.png';
+import angerPeace from '../images/AngerAndPeace.png';
 import peaceFlow from '../images/PeaceAndFlow.png';
-import impact from '../images/Impact.png';
+import profiles from '../images/Profiles.png';
+import circuitry from '../images/Circuitry.png';
 
 export default function Home() {
   return (
@@ -104,31 +104,55 @@ export default function Home() {
         <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image
             className="w-2/3 sm:w-3/4 md:w-full 3xl:w-3/4 m-auto"
-            src={manifestorRelationships}
+            src={angerPeace}
             alt=""
           />
-          <h3>Being a Manifestor (woman) in relationships</h3>
+          <h3>Anger & peace</h3>
           <p>
-            Being a Manifestor woman in relationships can be a challenging
-            experience.
+            We call it &quot;the NOT SELF theme&quot;, we all have to deal with
+            it, but anger is an inherent part of our nature. It&apos;s no
+            mistake.
           </p>
           <p>
-            We have a closed Aura, and we don&apos;t interact the same as the
-            rest of them. Love is always an issue, and with all the social
-            conditioning around men and women, and what it means to be a
-            daughter, a wife, a mother, it may seem sometimes like it just
-            doesn’t work for us.
+            Before any thought or psychology of relations, anger/rage, is a
+            natural physical energetic occurrence of our mechanics - the
+            reaction in our Aura to incorrectness, ours or others, which is in
+            the end one and the same. Incorrect movement cuts off the yang
+            &apos;designed to do&apos; energy and interrupts silence, and anger
+            arises. In that it is a significant signpost for us. But it&apos;s
+            not only that.
           </p>
           <p>
-            In the retreat we will discuss this super important topic and see
-            how we can take the relationships in our life to the next level, out
-            of correctness.
+            Anger can be such a driving force, it can be a source of change -
+            not only for us, but also for the people around us, because of our
+            Impact. This makes us the ones setting the tone in a very different
+            way than all the other Types. In the energetic hierarchy we are the
+            ones at the top. Plain and simple.
           </p>
           <p>
-            Yes, you have to initiate. And this is where the dance of everyday
-            life comes into play and there can be space to explore what works
-            for your relationships! How to respect yourself and the others -
-            your partner, children, colleagues and friends.
+            We can&apos;t hide. We can&apos;t mask our Anger because the Aura
+            carries the frequency. We are warriors. But through S&A we become
+            warriors of love, warriors of SELF.
+          </p>
+          <p>
+            Out of working with anger and transforming it, peace is revealed;
+            our signature. Signature is the basic energetic natural resonance,
+            existing prior to anything else appearing as reality. It is our
+            stamp, our energetic fingerprint, our real frequency. When we
+            navigate life from a place of peace, from an Inner Authority place,
+            unmoved, that&apos;s what we bring into the world.
+          </p>
+          <p>
+            In the retreat we will take a look at anger, its connection to inner
+            authority and strategy, and understand how to work with it. We will
+            talk about what peace is, how to connect to it, recognize and
+            acknowledge it, how to live it.
+          </p>
+          <p>
+            The retreat is a perfect opportunity to give time and thought for
+            this oh so important themes of ours. To ponder it together and
+            experiment with it, at all time. To notice it, appreciate it,
+            empower it!
           </p>
         </article>
         <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
@@ -171,51 +195,49 @@ export default function Home() {
         <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
           <Image
             className="w-2/3 sm:w-3/4 md:w-full 3xl:w-3/4 m-auto"
-            src={impact}
+            src={profiles}
             alt=""
           />
-          <h3>Impact</h3>
+          <h3>Profiles</h3>
           <p>
-            Impact is our very nature.
-            <br /> It is our <b>aura</b>, our <b>communication</b>, and our{' '}
-            <b>self-knowing</b>.<br />
-            By the mechanics of our aura, the way our actions and words meet the
-            world, out of a throat connected to a motor, with no sacral to pull
-            it back, creates impact
+            Manifestors naturally take up space. Our design makes it so that our
+            words and actions have immediate impact on the people around us,
+            thus putting us in a position of natural power to change things, to
+            create movement.
+          </p>
+          <p>But what kind of frequency do we put in to the space?</p>
+          <p>
+            Are we here to be a role model for others? To universalize a new
+            massage? To be a prophet to our people? A priestess? A guru? A
+            teacher?
           </p>
           <p>
-            This means our very <b>communication</b> with everyone is based upon
-            impact. Regardless of our relation to the person, our thoughts or
-            feeling for them, or their role in our life. That&apos;s really
-            something to ponder - we impact everyone around us all the time,
-            whether we like it or not, want it or not. No choice.
+            The role we have as energetic leaders in this sense, can be seen and
+            understood through the lines in our profile. The archetype we play
+            in this grand adventure called life is predesigned and predestined.
+            It is woven together so beautifully with all the aspects of our form
+            and spirit by the intelligence of our DNA, our Human Design.
           </p>
           <p>
-            The mechanics of impact is energy going out from within us,
-            &quot;hitting&quot; someone or something on the outside and coming
-            back to us. Kind of like an Australian boomerang. When it hits us
-            back, it <b>tells us of ourselves</b>, because at the most basic
-            energy level - we are our impact!
+            Knowing our archetype, the profile, sheds light on the entire play.
           </p>
           <p>
-            Metaphorically it&apos;s like a dolphin or a whale, using voice as
-            sonar - it goes out into the world and comes back creating a picture
-            of what it hit around it. It is our frequency coming back. That is
-            why our question is &quot;what is my impact?&quot;.
+            Some of us, with right angle profiles are here to live out of a very
+            personal journey and point of view. Some of us, the left angle ones,
+            are here to experience a transpersonal journey. It&apos;s so
+            different. Each is so important to the tapestry of humanity and
+            life.
           </p>
           <p>
-            Impact is our spiritual path, as well as our service to the world
-            when our form is correct and our spirit in it aligned. When we wait
-            for the Universe to push us, out of inner authority, our impact
-            carries the inspiration of the source to the world.
+            Knowing our right or left angle experience and owning it enables a
+            deepening in surrendering, and expands our view of life and our role
+            in it, so we can see and BE the initiator we are meant to be, the
+            way we are meant it.
           </p>
           <p>
-            BUT when incorrect, our impact, reflecting our inner frequency, is a
-            source of suffering. In our retreat we will experiment and
-            investigate together to meet our impact experientially. We will
-            reach a deeper understanding on how to make impact more conscious,
-            how to impact out of inspiration, and how to know our SELF
-            intimately and authentically through impact.
+            In this retreat we will experiment with the angles, lines and
+            profile so we can really understand them and take it to the next
+            level of LIVING IT.
           </p>
         </article>
         <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
@@ -257,74 +279,53 @@ export default function Home() {
         </article>
       </div>
       <div className="flex flex-row justify-evenly lg:justify-center flex-wrap md:flex-nowrap">
-        <article className="w-11/12 sm:w-4/5 md:w-2/5 md:mr-10 lg:mr-20 xl:w-1/3 2xl:w-1/4">
-          <Image
-            className="w-2/3 sm:w-3/4 md:w-full 3xl:w-3/4 m-auto"
-            src={angerTransformation}
-            alt=""
-          />
-          <h3>Anger and transformation</h3>
-          <p>
-            We call it &quot;the NOT SELF theme&quot;, we all have to deal with
-            it, but anger is an inherent part of our nature. It&apos;s no
-            mistake.
-          </p>
-          <p>
-            Before any angry thought, or psychology of relations, anger (I
-            actually prefer RAGE) is a natural energetic occurrence of our
-            mechanics. It is the physical reaction in our Aura to incorrectness,
-            usually in the form of a different aura approaching us and cutting
-            off the yang &quot;designed to do&quot; silence or movement. In
-            that, it is a significant signpost for us. But it&apos;s not only
-            that.
-          </p>
-          <p>
-            Rage is a powerful force. In the past it&apos;s what made us kings
-            and queens and creators of cultures, but what part does it play
-            today?
-          </p>
-          <p>
-            This part of our DNA, if dealt with correctly and lovingly, can be
-            the food for transformation, it can change the form, when elevated
-            upon to justice, which is its true core.
-          </p>
-          <p>
-            Courage is at the core of us. Rage is its heart (coeur in French).
-            Manifestor fire burns on the heart rage, the passion of justice. We
-            are warriors. But we can become warriors of love, warriors of SELF.
-          </p>
-          <p>
-            In the retreat we will look at anger and at dealing with it from a
-            new perspective. Transforming it and transforming us.
-          </p>
-        </article>
         <article className="w-11/12 sm:w-4/5 md:w-2/5 xl:w-1/3 2xl:w-1/4">
           <Image
             className="w-2/3 sm:w-3/4 md:w-full 3xl:w-3/4 m-auto"
-            src={peaceFlow}
+            src={circuitry}
             alt=""
           />
-          <h3>Peace and flow</h3>
+          <h3>Circuitry</h3>
           <p>
-            Signature is the basic energetic natural resonance, existing prior
-            to anything else appearing as realty. It is our stamp, our energetic
-            fingerprint.
+            Circuitry is the flow of energy in our designed imprint. Every gate
+            and channel in the chart belong to a certain circuit, with its
+            specific characteristics and keynotes. The way we manifest life
+            through the energetic blueprint of ours is so depended on this flow.
           </p>
           <p>
-            So what is peace? On what and how many levels does it occur? How do
-            we recognize it? What does it look like and feel like?
+            All Manifestors have a closed Aura. So we all deal with similar
+            issues in relating, interaction, and love. We all have anger to deal
+            with, lack of consistent life sustaining energy for the normal
+            worldly elements of life - family, work, sexuality etc. We all feel
+            a bit like aliens in this Generators world.
           </p>
           <p>
-            The retreat is a perfect opportunity to give time and thought for
-            this oh so important theme of ours. To ponder it together and
-            experiment with it, at all time. To notice it, appreciate it,
-            empower it!
+            But we sense it and deal with it so differently according to the
+            energy flow in our circuits.
           </p>
           <p>
-            Here is a question to ponder upon until we meet:
-            <br />
-            What&apos;s our experience and how does that differ from when we
-            started experimenting?
+            Are we mainly tribal? Supporting and being supported by our people,
+            sensitive to needs, loving touch, connected to family and its
+            values…
+          </p>
+          <p>
+            Are we very collective? Sharing, caring for the community and its
+            structures, living the patterns of logic and abstract, past and
+            future…
+          </p>
+          <p>
+            Are we individual? All about empowerment and mutation, melancholic
+            and moody, even anti-social at times, yet creative and full of
+            passion…
+          </p>
+          <p>
+            In grasping our circuitry in relation to our Type, we come to see
+            our main dilemmas. Out of that understanding, support and
+            empowerment arise to make our flow our tool in life!
+          </p>
+          <p>
+            Investigating circuitry is fundamental, we are so curious to dive
+            deeply into it in this retreat.
           </p>
         </article>
       </div>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Menu from './Menu';
 import AdaptiveImage from './AdaptiveImage';
-import logoWide from '../images/logo/logoNew.jpg';
+import logoWide from '../images/logo/logoWide.jpg';
 import logoMobile from '../images/logo/logoMobile.jpg';
 import MobileMenu from './MobileMenu';
 

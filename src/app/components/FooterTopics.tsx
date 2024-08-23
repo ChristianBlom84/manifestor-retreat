@@ -1,23 +1,20 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import footerBackground from '../images/background-06.jpg';
+import footerBackground from '../images/background-07.jpg';
 import clickHere from '../images/clickHere.png';
 
 function Footer() {
   return (
-    <footer className="w-full relative overflow-hidden mt-5">
+    <footer className="w-full relative mt-5">
       <Image
         src={footerBackground}
         alt=""
         placeholder="blur"
         quality={100}
-        className="absolute w-full -z10 bottom-0 left-0"
-        style={{
-          height: '140%',
-        }}
+        className="absolute w-full -z-10 bottom-0 left-0 h-[550%]"
         sizes="100vw"
       />
-      <div className="flex flex-col relative w-11/12 sm:w-4/5 lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto mb-10">
+      <div className="flex flex-col relative max-w-lg w-11/12 sm:w-4/5 mx-auto mb-10">
         <p className="mb-2">
           <span className="text-theme-red font-bold">
             These are the topics we will be covering

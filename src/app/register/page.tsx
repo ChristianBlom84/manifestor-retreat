@@ -12,49 +12,59 @@ export default function Home() {
   return (
     <>
       <h1 className="mx-2 text-center">Practical Details and Registering</h1>
-      <div className="m-2">
-        <h2>Prices</h2>
+      <div className="m-2 max-w-xl">
+        <h2>Room Options and Prices</h2>
         <p>
-          Early bird price (ends 14/4):{' '}
-          <span className="font-semibold">1020€</span>
+          <span className="font-bold">
+            3 per room with shared bathrooms (not inside room)
+            <br />
+          </span>
+          Early bird until October 15th -{' '}
+          <span className="font-semibold">810€</span>
           <br />
-          From April 15th: <span className="font-semibold">1120€</span>
+          Price after October 15th: <span className="font-semibold">890€</span>
+        </p>
+        <p>
+          <span className="font-bold">
+            3 per suite with private bathrooms and private terrace
+            <br />
+          </span>
+          Early bird until October 15th -{' '}
+          <span className="font-semibold">960€</span>
           <br />
-          Two single rooms available{' '}
-          <span className="font-semibold">1300€</span> - first come, first
-          serve!
+          Price after October 15th: <span className="font-semibold">1056€</span>
         </p>
         <p>
-          All prices include your Human Design chart printed and laminated,
-          bedroom shared by two people (with same Inner Authority), morning
-          snacks and homemade Greek lunches.
-        </p>
-        <p>
-          <span className="text-theme-red">PLEASE NOTE</span>
+          <span className="font-bold">
+            2 per room with shared bathrooms (not inside room)
+            <br />
+          </span>
+          Early bird until October 15th -{' '}
+          <span className="font-semibold">960€</span>
           <br />
-          Dinner is not included in the price.
+          Price after October 15th: <span className="font-semibold">1056€</span>
+        </p>
+        <p>
+          <span className="font-bold">
+            2 per double room with private bathroom
+            <br />
+          </span>
+          Early bird until October 15th -{' '}
+          <span className="font-semibold">1050€</span>
           <br />
-          Tavernas, restaurants and supermarket are within walking distance of
-          the villa.
-        </p>
-        <h2>Location</h2>
-        <p>
-          Our beautiful venue is located in Ferma, on the island of Crete,
-          Greece.
+          Price after October 15th: <span className="font-semibold">1155€</span>
         </p>
         <p>
-          Ferma is a small Greek village, 75min drive from Heraklion airport. We
-          are aspiring to organize and share taxi rides from the airport, via
-          our FB event page, and maybe future WhatsApp group. To make it easier,
-          we advise you to join the{' '}
-          <a
-            className="text-theme-red underline"
-            target="_blank"
-            href="https://www.facebook.com/share/tu3iHRALsXj21p5a/?mibextid=9VsGKo"
-          >
-            FB event group.
-          </a>
+          <span className="font-bold">
+            2 per suite with private bathrooms and private terrace
+            <br />
+          </span>
+          Early bird until October 15th -{' '}
+          <span className="font-semibold">1120€</span>
+          <br />
+          Price after October 15th: <span className="font-semibold">1230€</span>
         </p>
+        <p>*Payment plans available.</p>
         <p>
           For more info and beautiful pictures of the venue please{' '}
           <Link className="text-theme-red underline" href="/venue">
@@ -81,8 +91,6 @@ export default function Home() {
         </p>
         <p>
           Payment is possible via PayPal or Wise.
-          <br />
-          If you need a payment plan - talk to us!
           <br /> People coming from Israel can pay via credit card (contact
           Pavaka)
         </p>
@@ -93,13 +101,13 @@ export default function Home() {
         <p>We look forward to hearing from you!</p>
         <h2>Refunds and cancellations</h2>
         <p>
-          Full refund minus 5% until May 1st.
+          Full refund minus 5% until October 21st.
           <br />
-          Cancellations after May 1st - 50% refund.
+          Cancellations after October 21st - 50% refund.
           <br />
-          Cancellations after May 22nd - 20% refund.
+          Cancellations after November 4th - 20% refund.
           <br />
-          Cancellations after June 1st - no refund.
+          Cancellations after November 21st - no refund.
         </p>
       </div>
       <Footer />
