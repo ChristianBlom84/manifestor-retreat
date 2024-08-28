@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Footer from './components/FooterHome';
 import uniqueAdventure from './images/uniqueadventure.png';
+import houseFront from './images/HouseFront.jpg';
 import circuitry from './images/Circuitry.png';
 import manifestorAuthorities from './images/InnerAuthorities.png';
 import informing from './images/InformingDeepDive.png';

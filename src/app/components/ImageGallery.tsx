@@ -10,6 +10,10 @@ import outsideOne from '../images/Spot-outside-1.png';
 import outsideTwo from '../images/Spot-outside-2.png';
 import studio from '../images/Studio.png';
 import view from '../images/View.png';
+import overview from '../images/Overview.jpg';
+import giantTree from '../images/Giant-tree.jpg';
+import pool from '../images/Pool.jpg';
+import walkway from '../images/Walkway.jpg';
 
 const ImageGallery = () => {
   const [selectedImage, setSelectedImage] = useState<StaticImageData | null>(
@@ -26,6 +30,10 @@ const ImageGallery = () => {
     outsideTwo,
     studio,
     view,
+    overview,
+    giantTree,
+    pool,
+    walkway,
   ];
 
   const handleImageClick = (image: any) => {
