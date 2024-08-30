@@ -105,6 +105,15 @@ const Menu: React.FC<Props> = ({
               Venue
             </Link>
           </li>
+          <li className="text-2xl m-4 block uppercase relative sm:text-xl">
+            <Link
+              className={underLineStyle}
+              href="/gallery"
+              onClick={handleClose}
+            >
+              Gallery
+            </Link>
+          </li>
         </ul>
       </nav>
     </>

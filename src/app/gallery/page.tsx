@@ -23,7 +23,6 @@ import voiceplay from '../images/galleryPage/Voiceplay.jpg';
 
 const galleryPics = [
   breakfast,
-  chartsDoc,
   chartsFloor,
   chartsFloorGroup,
   circleOutside,
