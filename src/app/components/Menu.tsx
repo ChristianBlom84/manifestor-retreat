@@ -34,10 +34,16 @@ function Menu() {
         Team
       </Link>
       <Link
-        className={`text-black my-auto relative uppercase ${underLineStyle}`}
+        className={`mr-5 text-black my-auto relative uppercase ${underLineStyle}`}
         href="/venue"
       >
         Venue
+      </Link>
+      <Link
+        className={`text-black my-auto relative uppercase ${underLineStyle}`}
+        href="/gallery"
+      >
+        Gallery
       </Link>
     </nav>
   );

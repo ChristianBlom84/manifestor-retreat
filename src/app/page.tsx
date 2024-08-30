@@ -55,13 +55,18 @@ export default function Home() {
                 mechanics, practice the practical implements of the knowledge,
                 and dive together into the magic of just BEING us.
               </p>
-              <p className="mb-12">
+              <p className="mb-2">
                 We will experience in Aura interaction, learn and discuss
                 important Manifestor themes, enjoy morning relaxing sessions
                 (Yoga\Chi Gong), movement, dancing and music. All of this
                 facilitated by Manifestor women deeply immersed living their HD
                 experiment.
               </p>
+              <Image
+                className="w-full m-auto mb-12 max-w-screen-lg"
+                src={houseFront}
+                alt="Image of the venue"
+              />
             </div>
             <h3 className="font-semibold">
               Some topics we will cover and investigate:

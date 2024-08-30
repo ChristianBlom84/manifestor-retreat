@@ -36,7 +36,6 @@ export default function Home() {
           often made and go with us after the retreat.
         </p>
         <h2>Meals</h2>
-        <p>We take care of your breakfast and lunch!</p>
         <p>
           All prices include 3 delicious Mediterranean meals a day, made for us
           by a private chef. Vegetarian breakfast and lunch, and an omnivore

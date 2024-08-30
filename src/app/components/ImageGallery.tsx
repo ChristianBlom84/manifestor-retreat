@@ -15,12 +15,14 @@ import giantTree from '../images/Giant-tree.jpg';
 import pool from '../images/Pool.jpg';
 import walkway from '../images/Walkway.jpg';
 
-const ImageGallery = () => {
+type GalleryProps = { galleryPics?: StaticImageData[] | undefined };
+
+const ImageGallery: React.FC<GalleryProps> = ({ galleryPics }) => {
   const [selectedImage, setSelectedImage] = useState<StaticImageData | null>(
     null,
   );
   const modalRef = useRef<HTMLDivElement>(null);
-  const images = [
+  const defaultImages = [
     aerialView,
     landscape,
     food,
@@ -35,6 +37,9 @@ const ImageGallery = () => {
     pool,
     walkway,
   ];
+
+  const images =
+    galleryPics && galleryPics.length > 0 ? galleryPics : defaultImages;
 
   const handleImageClick = (image: any) => {
     console.log(typeof image);
