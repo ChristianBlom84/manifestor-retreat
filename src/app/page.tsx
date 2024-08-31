@@ -15,6 +15,7 @@ import friday from './images/Friday.png';
 import saturday from './images/Saturday.png';
 import sunday from './images/Sunday.png';
 import monday from './images/Monday.png';
+import tree from './images/Giant-tree.jpg';
 
 export default function Home() {
   return (
@@ -62,12 +63,12 @@ export default function Home() {
                 facilitated by Manifestor women deeply immersed living their HD
                 experiment.
               </p>
-              <Image
-                className="w-full m-auto mb-12 max-w-screen-lg"
-                src={houseFront}
-                alt="Image of the venue"
-              />
             </div>
+            <Image
+              className="w-full m-auto mb-12 max-w-screen-md"
+              src={houseFront}
+              alt="Image of the venue"
+            />
             <h3 className="font-semibold">
               Some topics we will cover and investigate:
             </h3>
@@ -322,37 +323,44 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-2 px-2 sm:px-0 sm:pt-10 pb-0 w-11/12 max-w-lg text-center">
-        <h2>A forest retreat</h2>
-        <p className="mb-2">
-          Our venue is a haven, a big and beautiful Spanish estate located in
-          Sitges (see{' '}
-          <Link className="underline" href="/register">
-            PRACTICAL DETAILS
-          </Link>
-          ) in Pendés an hour outside Barcelona.
-        </p>
-        <p className="mb-2">
-          Imagine us, the tribe of Manifestor women, peacefully luxuriating in
-          our freedom and power, in a tranquil forest in beautiful nature.
-          That&apos;s exactly what it will be!
-        </p>
-        <p className="mb-2">
-          We&apos;ll enjoy fall weather in this huge, amazing mansion with
-          plenty of room to relax, have your space - and for the brave ones
-          there is a pool! Breakfast is served in the spacious kitchen area,
-          where you can choose to eat or find a secluded spot if you prefer. We
-          will also have a private chef cook delicious food for us, both lunch
-          (vegetarian) and dinner(omnivore). Throughout the day, a coffe/tea
-          cart, with snacks, will be available. We&apos;re here to support and
-          empower you, ensuring you are well taken care of during the entire
-          stay
-        </p>
-        <p>
-          <Link className="text-theme-red underline" href="/venue">
-            More info on the venue and photos.
-          </Link>
-        </p>
+      <section className="py-2 px-2 sm:px-0 sm:pt-10 pb-0">
+        <Image
+          className="w-full m-auto mb-4 max-w-screen-md"
+          src={tree}
+          alt="Image of the venue"
+        />
+        <div className="w-11/12 max-w-lg text-center m-auto">
+          <h2>A forest retreat</h2>
+          <p className="mb-2">
+            Our venue is a haven, a big and beautiful Spanish estate located in
+            Sitges (see{' '}
+            <Link className="underline" href="/register">
+              PRACTICAL DETAILS
+            </Link>
+            ) in Pendés an hour outside Barcelona.
+          </p>
+          <p className="mb-2">
+            Imagine us, the tribe of Manifestor women, peacefully luxuriating in
+            our freedom and power, in a tranquil forest in beautiful nature.
+            That&apos;s exactly what it will be!
+          </p>
+          <p className="mb-2">
+            We&apos;ll enjoy fall weather in this huge, amazing mansion with
+            plenty of room to relax, have your space - and for the brave ones
+            there is a pool! Breakfast is served in the spacious kitchen area,
+            where you can choose to eat or find a secluded spot if you prefer.
+            We will also have a private chef cook delicious food for us, both
+            lunch (vegetarian) and dinner(omnivore). Throughout the day, a
+            coffe/tea cart, with snacks, will be available. We&apos;re here to
+            support and empower you, ensuring you are well taken care of during
+            the entire stay
+          </p>
+          <p>
+            <Link className="text-theme-red underline" href="/venue">
+              More info on the venue and photos.
+            </Link>
+          </p>
+        </div>
       </section>
       <Footer />
     </>

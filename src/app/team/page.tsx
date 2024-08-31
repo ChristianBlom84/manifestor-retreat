@@ -30,27 +30,19 @@ export default function Home() {
               alt="Image of Pavaka"
               src={pavakaPhoto}
             />
-            5\1 emotional Manifestor. Walking the spiritual path since 1999,
+            5/1 Emotional Manifestor. Walking the spiritual path since 1999,
             through many teachings and methods, and have been teaching and
-            guiding people since 2005.
+            guiding people since 2005. When HD came into my life in 2012 and I
+            started living the experiment radically, it mutated me and
+            transformed my life deeply, even after years of spirituality. It
+            soon became my main way of guiding people, initiating them into
+            SELF, through readings, and international Immersions, courses and
+            retreats. I am a certified Human Design Guide and Analyst.
           </p>
           <p>
-            When HD came into my life in 2012 and I started living the
-            experiment radically, it mutated me and transformed my life deeply,
-            even after years of spirituality. It soon became my main way of
-            guiding people, initiating them into their selves, both 1 on 1 in
-            readings, and facilitating courses and retreats, in Israel and
-            internationally. I am a certified Human Design Guide and a PTL
-            analyst in formation (finished all the courses 2 yrs. ago and
-            waiting for the energy to hand in the work LOL).
-          </p>
-          <p>
-            I love working with my Manifestor family. I have a beautiful all
-            Manifestor FB group in Israel, and have facilitated many Manifestor
-            meetings, courses and even a 3 day retreat in Israel (we were 30
-            Manifestors). Being in the Manifestor Aura together is always
-            impactful and mutative for me, and I am so looking forward to meet
-            my international sisters.
+            I love working with my Manifestor family. Being in the Manifestor
+            Aura together is always impactful and mutative for me, and I am so
+            looking forward to meeting my international sisters.
           </p>
           <div className="flex flex-wrap justify-center md:flex">
             <Image
@@ -79,25 +71,18 @@ export default function Home() {
               alt="Image of Milla"
               src={millaPhoto}
             />
-            6/2 Splenic Manifestor. 19. I was 19 when I felt done with life and
-            in need of help. So, I started searching for answers and in the
-            process tried ALL the different things; talk therapy, hypnosis,
-            yoga, you name it! Eventually I found my way to someone who guided
-            me to a calmer way of being. (Later found out he is an Emotional
-            Projector.) This led me to wanting to support others and I have
-            worked with clients since 2001, with different modalities.
-          </p>
-          <p>
-            I crossed paths with Human Design in 2012 - and living Strategy &
-            Authority became my way to navigate the world. Finally, the pieces
-            of my life&apos;s puzzle finally fit together with a vocabulary, and
-            a context, making sense. Went to my first Immersion with Mary Ann in
-            2015 and experienced the power of being in Aura with others living
-            their experiment. Since then, I have become an LYD guide and
-            (IHDS-board willing) HD Analyst, working with clients through
-            sessions and readings. When I step out from behind my barrier for
-            the correct call, such as this retreat, I relax and enjoy my love in
-            supporting fellow Manifestors.
+            6/2 Splenic Manifestor. Human Design saved my life. Nope, too
+            dramatic. Human Design gave me words to put my experience into a
+            context where it made sense. There, that&apos;s better. Looking
+            back, I lived my 3rd line phase in true Not-Self fashion, barely
+            getting on the roof by the skin of my teeth. Since 2012 I&apos;ve
+            been radical in living Strategy and Authority, integrating all my
+            experience which has led me to a life of peace I could never have
+            imagined. Along the way I became a wife, mom and certified LYD and
+            HD Analyst at IHDS, doing readings, sessions and now retreats.
+            Supporting Manifestors in Aura is a powerful and life changing
+            experience. I feel very humbled, honored and privileged to be a
+            small part of someone else&apos;s journey BE-coming their SELF.
           </p>
           <div className="md:flex">
             <Image
