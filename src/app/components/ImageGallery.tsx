@@ -10,10 +10,6 @@ import outsideOne from '../images/Spot-outside-1.png';
 import outsideTwo from '../images/Spot-outside-2.png';
 import studio from '../images/Studio.png';
 import view from '../images/View.png';
-import overview from '../images/Overview.jpg';
-import giantTree from '../images/Giant-tree.jpg';
-import pool from '../images/Pool.jpg';
-import walkway from '../images/Walkway.jpg';
 
 type GalleryProps = { galleryPics?: StaticImageData[] | undefined };
 
@@ -32,10 +28,6 @@ const ImageGallery: React.FC<GalleryProps> = ({ galleryPics }) => {
     outsideTwo,
     studio,
     view,
-    overview,
-    giantTree,
-    pool,
-    walkway,
   ];
 
   const images =
