@@ -47,30 +47,21 @@ export default function Home() {
       <h1 className="mx-2 text-center">Gallery</h1>
       <div className="w-11/12 max-w-lg mx-auto">
         <p>
-          The inaugural Human Design Manifestor women retreat was June 6 - 9 in
-          Crete, 2024. Both Pavaka and Milla come from Immersions with Mary Ann
-          Winiger and carry the Immersion frequency within them. The retreat is
-          about embodiment, exploring what it is to be living your Design. A
-          possibility to experience and watch your impact while also being
-          impacted, gently navigated by an Emotional Manifestor and a Splenic
-          Manifestor.
+          Our first Human Design Manifestor women retreat was on June 2024 in
+          Crete, at a paradise venue with a private beach.
         </p>
         <p>
-          Beautiful Ferma in Crete was the location, at a beautiful house with a
-          private beach.
+          With a group of beautiful Manifestor sisters from around the world we
+          explored and embodied deeper what it is to live our Design. Through
+          experiential practices, movement, and profound conversation we
+          supported and empowered our informing, our presence in inner authority
+          and our flow in life.
         </p>
         <p>
-          The foundation for the retreat were Human Design sessions, covering a
-          wide variety of topics. Added on where movement for an opportunity of
-          integration of the information. We relaxed in the sun, swimming in the
-          sea, eating delicious home made food and just luxuriating in each
-          other&apos;s company. For some of us, this was the first time BE-ing
-          with other Manifestor women, for others it was a much welcome repeat
-          experience.
-        </p>
-        <p>
-          We all brought our own frequency and together we conjured something
-          unique, a creation of space and time.
+          We also relaxed in the sun, swam in the sea, ate delicious Greek food
+          and just luxuriated in each other&apos;s company. We share many
+          precious memories from this mutual creation of peaceful, inspirational
+          and impactful event!
         </p>
       </div>
       <ImageGallery galleryPics={galleryPics} />
