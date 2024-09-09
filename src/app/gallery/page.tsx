@@ -1,5 +1,9 @@
-import Image from 'next/image';
-import Link from 'next/link';
+'use client';
+import { useState } from 'react';
+import Lightbox from 'yet-another-react-lightbox';
+import Inline from 'yet-another-react-lightbox/plugins/inline';
+import 'yet-another-react-lightbox/styles.css';
+import NextJsImage from '../components/NextJsImage';
 import Footer from '../components/Footer';
 import ImageGallery from '../components/ImageGallery';
 import breakfast from '../images/galleryPage/Breakfast.jpg';
@@ -42,6 +46,13 @@ const galleryPics = [
 ];
 
 export default function Home() {
+  const [open, setOpen] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  const toggleOpen = (state: boolean) => () => setOpen(state);
+  const updateIndex = ({ index: current }: { index: number }) =>
+    setIndex(current);
+
   return (
     <>
       <h1 className="mx-2 text-center">Gallery</h1>
@@ -64,7 +75,41 @@ export default function Home() {
           and impactful event!
         </p>
       </div>
-      <ImageGallery galleryPics={galleryPics} />
+      <Lightbox
+        // open={open}
+        // close={() => setOpen(false)}
+        slides={galleryPics}
+        plugins={[Inline]}
+        on={{
+          view: updateIndex,
+          click: toggleOpen(true),
+        }}
+        carousel={{
+          padding: 0,
+          spacing: 0,
+          imageFit: 'cover',
+        }}
+        inline={{
+          style: {
+            width: '100%',
+            maxWidth: '900px',
+            aspectRatio: '3 / 2',
+            margin: '0 auto',
+          },
+        }}
+        render={{ slide: NextJsImage }}
+      />
+
+      <Lightbox
+        open={open}
+        close={toggleOpen(false)}
+        index={index}
+        slides={galleryPics}
+        on={{ view: updateIndex }}
+        animation={{ fade: 0 }}
+        controller={{ closeOnPullDown: true, closeOnBackdropClick: true }}
+      />
+      {/* <ImageGallery galleryPics={galleryPics} /> */}
       <Footer />
     </>
   );

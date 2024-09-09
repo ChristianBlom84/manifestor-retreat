@@ -82,6 +82,8 @@ const ImageGallery: React.FC<GalleryProps> = ({ galleryPics }) => {
               className="w-auto h-auto max-w-full max-h-full m-auto"
               src={selectedImage}
               alt={`${selectedImage}`}
+              height={selectedImage.height}
+              width={selectedImage.width}
             />
           </div>
         </div>
