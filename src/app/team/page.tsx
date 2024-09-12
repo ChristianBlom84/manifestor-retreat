@@ -7,15 +7,13 @@ import millaBodygraph from '../images/MillaBodygraph.png';
 import millaPhoto from '../images/Milla.jpg';
 import millaHeadline from '../images/millaText.png';
 import ihdsCertified from '../images/Certified-pro-transparent.png';
-import karinPhoto from '../images/Karin.jpg';
-import shirPhoto from '../images/Shir.jpg';
-import violaPhoto from '../images/Viola.jpg';
+import galPhoto from '../images/Gal.jpg';
 
 export default function Home() {
   return (
     <>
       <h1 className="mx-2 md:mt-10 text-center">Who are we?</h1>
-      <div className="flex flex-col items-center md:items-start md:flex md:flex-row md:justify-evenly mb-20">
+      <div className="flex flex-col items-center md:items-start md:flex md:flex-row md:justify-evenly mb-10">
         <div className="w-11/12 sm:w-4/5 md:w-2/5 mb-10 md:mb-0">
           <h2>
             <Image
@@ -95,6 +93,37 @@ export default function Home() {
               src={ihdsCertified}
               alt="IHDS Certified Professional"
             />
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col items-center md:items-start md:flex md:flex-row md:justify-evenly mb-20">
+        <div className="w-11/12 sm:w-4/5 md:w-2/5 mb-10 md:mb-0">
+          <div>
+            <h2>Gal Meller</h2>
+            <p>
+              <Image
+                className="float-left mb-5 sm:w-1/2 sm:mr-2 sm:mb-0"
+                alt="Image of Milla"
+                src={galPhoto}
+              />
+              6/2 Ego Manifestor. Gal Meller aka Dj Sêlva who sees music as
+              medicine, will take us into an ecstatic healing Journey through
+              differens tunes, beats and cultures. When she stars playing, the
+              ceremony begins, time changes shape, and a door opens to a new
+              story within.
+            </p>
+            <p>
+              Gal is also the funder of the Lunatic Tribe women Community and a
+              facilitator for various types of feminine healing spaces you can
+              find out more about her here:{' '}
+              <a
+                className="underline"
+                target="_blank"
+                href="https://linktr.ee/Gal.Meller"
+              >
+                https://linktr.ee/Gal.Meller
+              </a>
+            </p>
           </div>
         </div>
       </div>
