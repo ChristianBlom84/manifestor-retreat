@@ -53,15 +53,15 @@ const Reviews = () => {
               and transformation for others.
             </p>
             <p>
-              This retreat didn’t just offer me insights; it provided a
+              This retreat didn&apos;t just offer me insights; it provided a
               community of like-minded women who support and uplift one another.
               The sense of belonging and acceptance I found here is
               unparalleled. I left the retreat feeling more empowered, more
               loving towards myself, and with a renewed sense of purpose. If
-              you’re a Manifestor woman seeking to embrace your true self and
-              harness your energy positively, this retreat is a must. It’s a
-              beautiful, life-changing experience that will help you see
-              yourself—and your fellow Manifestors—in a whole new light.
+              you&apos;re a Manifestor woman seeking to embrace your true self
+              and harness your energy positively, this retreat is a must.
+              It&apos;s a beautiful, life-changing experience that will help you
+              see yourself—and your fellow Manifestors—in a whole new light.
             </p>
           </div>
           <div className="embla__slide flex-[0_0_100%] mr-5">
