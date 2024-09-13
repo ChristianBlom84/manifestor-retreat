@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Reviews from './components/Reviews';
 import Footer from './components/FooterHome';
 import uniqueAdventure from './images/uniqueadventure.png';
 import houseFront from './images/HouseFront.jpg';
@@ -329,7 +330,7 @@ export default function Home() {
           src={tree}
           alt="Image of the venue"
         />
-        <div className="w-11/12 max-w-lg text-center m-auto">
+        <div className="w-11/12 max-w-lg text-center m-auto mb-5">
           <h2>A forest retreat</h2>
           <p className="mb-2">
             Our venue is a haven, a big and beautiful Spanish estate located in
@@ -360,6 +361,12 @@ export default function Home() {
               More info on the venue and photos.
             </Link>
           </p>
+        </div>
+        <h2 className="text-center mt-10">
+          Reviews from previous participants
+        </h2>
+        <div className="p-2 px-4 w-11/12 max-w-lg text-center m-auto bg-white/70 shadow-[inset_0_0_40px_0_rgba(255,255,255,1)] rounded-sm">
+          <Reviews />
         </div>
       </section>
       <Footer />
