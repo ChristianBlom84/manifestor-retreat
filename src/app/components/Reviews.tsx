@@ -4,6 +4,7 @@ import Image from 'next/image';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 import viola from '../images/Viola.jpg';
+import marieta from '../images/Marieta.jpg';
 
 const Reviews = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
@@ -63,6 +64,11 @@ const Reviews = () => {
               It&apos;s a beautiful, life-changing experience that will help you
               see yourself—and your fellow Manifestors—in a whole new light.
             </p>
+            <Image
+              className="w-auto h-auto max-w-[75%] max-h-full m-auto"
+              src={marieta}
+              alt={`${marieta}`}
+            />
           </div>
           <div className="embla__slide flex-[0_0_100%] mr-5">
             <h3>Viola:</h3>
@@ -72,7 +78,7 @@ const Reviews = () => {
               integrating…
             </p>
             <Image
-              className="w-auto h-auto max-w-full max-h-full m-auto"
+              className="w-auto h-auto max-w-[75%] max-h-full m-auto"
               src={viola}
               alt={`${viola}`}
             />

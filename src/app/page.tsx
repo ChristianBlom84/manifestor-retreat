@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Reviews from './components/Reviews';
 import Footer from './components/FooterHome';
 import uniqueAdventure from './images/uniqueadventure.png';
+import reviewsHeading from './images/Reviews.png';
 import houseFront from './images/HouseFront.jpg';
 import circuitry from './images/Circuitry.png';
 import manifestorAuthorities from './images/InnerAuthorities.png';
@@ -363,7 +364,11 @@ export default function Home() {
           </p>
         </div>
         <h2 className="text-center mt-10">
-          Reviews from previous participants
+          <Image
+            className="inline max-w-36 m-0"
+            src={reviewsHeading}
+            alt="Reviews"
+          />
         </h2>
         <div className="p-2 px-4 w-11/12 max-w-lg text-center m-auto bg-white/70 shadow-[inset_0_0_40px_0_rgba(255,255,255,1)] rounded-sm">
           <Reviews />
