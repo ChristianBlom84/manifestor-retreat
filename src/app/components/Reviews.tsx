@@ -3,12 +3,14 @@ import { useCallback } from 'react';
 import Image from 'next/image';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
+import AutoHeight from 'embla-carousel-auto-height';
 import viola from '../images/Viola.jpg';
 import marieta from '../images/Marieta.jpg';
 
 const Reviews = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
     Autoplay({ delay: 8000, playOnInit: true }),
+    AutoHeight(),
   ]);
 
   const scrollPrev = useCallback(() => {
@@ -22,7 +24,7 @@ const Reviews = () => {
   return (
     <div className="embla overflow-hidden">
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container flex min-w-0">
+        <div className="embla__container flex min-w-0 items-start transition-[height]">
           <div className="embla__slide flex-[0_0_100%] mr-5">
             <h3>Marieta:</h3>
             <p>

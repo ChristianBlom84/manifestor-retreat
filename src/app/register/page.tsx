@@ -19,50 +19,50 @@ export default function Home() {
             3 per room with shared bathrooms (not inside room)
             <br />
           </span>
-          Early bird until October 15th -{' '}
+          Early bird until October 31st -{' '}
           <span className="font-semibold">810€</span>
           <br />
-          Price after October 15th: <span className="font-semibold">890€</span>
+          Price after October 31st: <span className="font-semibold">890€</span>
         </p>
         <p>
           <span className="font-bold">
             3 per suite with private bathrooms and private terrace
             <br />
           </span>
-          Early bird until October 15th -{' '}
+          Early bird until October 31st -{' '}
           <span className="font-semibold">960€</span>
           <br />
-          Price after October 15th: <span className="font-semibold">1056€</span>
+          Price after October 31st: <span className="font-semibold">1056€</span>
         </p>
         <p>
           <span className="font-bold">
             2 per room with shared bathrooms (not inside room)
             <br />
           </span>
-          Early bird until October 15th -{' '}
+          Early bird until October 31st -{' '}
           <span className="font-semibold">960€</span>
           <br />
-          Price after October 15th: <span className="font-semibold">1056€</span>
+          Price after October 31st: <span className="font-semibold">1056€</span>
         </p>
         <p>
           <span className="font-bold">
             2 per double room with private bathroom
             <br />
           </span>
-          Early bird until October 15th -{' '}
+          Early bird until October 31st -{' '}
           <span className="font-semibold">1050€</span>
           <br />
-          Price after October 15th: <span className="font-semibold">1155€</span>
+          Price after October 31st: <span className="font-semibold">1155€</span>
         </p>
         <p>
           <span className="font-bold">
             2 per suite with private bathrooms and private terrace
             <br />
           </span>
-          Early bird until October 15th -{' '}
+          Early bird until October 31st -{' '}
           <span className="font-semibold">1120€</span>
           <br />
-          Price after October 15th: <span className="font-semibold">1230€</span>
+          Price after October 31st: <span className="font-semibold">1230€</span>
         </p>
         <p>*Payment plans available.</p>
         <p>
