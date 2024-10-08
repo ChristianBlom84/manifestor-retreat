@@ -1,14 +1,29 @@
+'use client';
 import Image from 'next/image';
+import Lightbox from 'yet-another-react-lightbox';
+import Inline from 'yet-another-react-lightbox/plugins/inline';
+import 'yet-another-react-lightbox/styles.css';
+import NextJsImage from '../components/NextJsImage';
 import Footer from '../components/Footer';
-import bedroomOne from '../images/bedroom-1.jpg.webp';
-import bedroomTwo from '../images/bedroom-2-single-beds.jpg.webp';
-import bedroomThree from '../images/bedroom-3-single-bed.jpg.webp';
-import bedroomFour from '../images/bedroom-4-2-double-beds.jpg.webp';
-import oceanView from '../images/ocean-view1.jpg.webp';
+import roomOne from '../images/rooms/Room1.jpg';
+import roomTwo from '../images/rooms/Room2.jpg';
+import roomThree from '../images/rooms/Room3.jpg';
+import roomFour from '../images/rooms/Room4.jpg';
+import roomFive from '../images/rooms/Room5.jpg';
 import ImageGallery from '../components/ImageGallery';
 import Link from 'next/link';
+import { useState } from 'react';
+
+const roomPics = [roomOne, roomTwo, roomThree, roomFour, roomFive];
 
 export default function Home() {
+  const [open, setOpen] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  const toggleOpen = (state: boolean) => () => setOpen(state);
+  const updateIndex = ({ index: current }: { index: number }) =>
+    setIndex(current);
+
   return (
     <>
       <h1 className="mx-2 text-center">Practical Details and Registering</h1>
@@ -110,6 +125,42 @@ export default function Home() {
           Cancellations after November 21st - no refund.
         </p>
       </div>
+      <Lightbox
+        // open={open}
+        // close={() => setOpen(false)}
+        slides={roomPics}
+        plugins={[Inline]}
+        on={{
+          view: updateIndex,
+          click: toggleOpen(true),
+        }}
+        carousel={{
+          padding: 0,
+          spacing: 0,
+          imageFit: 'cover',
+        }}
+        inline={{
+          style: {
+            width: '100%',
+            maxWidth: '1080px',
+            aspectRatio: '12 / 7',
+            margin: '0 auto',
+            boxShadow: '0px 0px 10px 0px rgba(0,0,0,0.15)',
+          },
+        }}
+        render={{ slide: NextJsImage }}
+      />
+
+      <Lightbox
+        className="shadow-xl"
+        open={open}
+        close={toggleOpen(false)}
+        index={index}
+        slides={roomPics}
+        on={{ view: updateIndex }}
+        animation={{ fade: 0 }}
+        controller={{ closeOnPullDown: true, closeOnBackdropClick: true }}
+      />
       <Footer />
     </>
   );

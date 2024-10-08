@@ -109,7 +109,6 @@ export default function Home() {
         animation={{ fade: 0 }}
         controller={{ closeOnPullDown: true, closeOnBackdropClick: true }}
       />
-      {/* <ImageGallery galleryPics={galleryPics} /> */}
       <Footer />
     </>
   );
