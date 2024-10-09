@@ -29,6 +29,12 @@ function Menu() {
       </Link>
       <Link
         className={`mr-5 text-black my-auto relative uppercase ${underLineStyle}`}
+        href="/qa"
+      >
+        Q&A
+      </Link>
+      <Link
+        className={`mr-5 text-black my-auto relative uppercase ${underLineStyle}`}
         href="/team"
       >
         Team

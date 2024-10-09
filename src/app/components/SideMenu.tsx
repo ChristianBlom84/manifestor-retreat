@@ -92,6 +92,11 @@ const Menu: React.FC<Props> = ({
             </Link>
           </li>
           <li className="text-2xl m-4 block uppercase relative sm:text-xl">
+            <Link className={underLineStyle} href="/qa" onClick={handleClose}>
+              Q&A
+            </Link>
+          </li>
+          <li className="text-2xl m-4 block uppercase relative sm:text-xl">
             <Link className={underLineStyle} href="/team" onClick={handleClose}>
               Team
             </Link>
