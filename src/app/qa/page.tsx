@@ -14,7 +14,15 @@ export default function Home() {
           you with other participants for possible sharing of transport and
           float suggestions. <br />
           Departure: we will check out and leave at the same time, we are
-          coordinating transfer from the maisa to BCN airport.
+          coordinating transfer from the maisa to BCN airport. You can check the
+          coordinates for the location at{' '}
+          <a
+            className="underline"
+            target="_blank"
+            href="https://maps.app.goo.gl/PCBdxoKRSxXuFfWo8"
+          >
+            Google Maps.
+          </a>
         </p>
         <p>
           Q. Do I have to know HD?

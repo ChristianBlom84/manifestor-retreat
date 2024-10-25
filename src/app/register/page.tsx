@@ -95,6 +95,10 @@ export default function Home() {
           </Link>
         </p>
         <h2>Contact</h2>
+        <p>
+          There is a WhatsApp group for the retreat, search for &quot;Manifestor
+          women retreat Spain&quot;.
+        </p>
         <p>If you have any questions or want to register please contact us:</p>
         <p>
           <span className="font-semibold">Milla</span> (Sweden)
