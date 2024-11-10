@@ -24,12 +24,6 @@ export default function Home() {
           clean, beautiful and comfortable.
         </p>
         <p>
-          We have an early bird price running till October 15th, so lots of time
-          for clarity. But we do inform - we have limited space available (26
-          spots), and of course limited amount of rooms in every lodging
-          category.
-        </p>
-        <p>
           Sharing arrangements is based on same lodging category choice and (as
           much as possible) - on same authority. Sharing rooms is always part of
           the fun! You meet your sisters and loving exciting connections are
@@ -44,7 +38,7 @@ export default function Home() {
         </p>
         <p>
           This is an invitation to an easy going, comfortable and pleasurable
-          beach retreat, in fact, we believe - for a perfect experience!
+          forest autumn retreat, in fact, we believe - for a perfect experience!
         </p>
         <p>If this is for you, let us know and see you soon.</p>
         <p>

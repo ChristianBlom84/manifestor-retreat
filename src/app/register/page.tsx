@@ -28,64 +28,73 @@ export default function Home() {
     <>
       <h1 className="mx-2 text-center">Practical Details and Registering</h1>
       <div className="m-2 max-w-xl">
+        <p>
+          Our huge amazing mansion has plenty of room to relax, together and/or
+          alone - and the rooms are all cozy and beautiful!
+        </p>
+        <p>
+          We offer different rooms for different prices, so you can make the
+          correct choice for you and enjoy your vacation fully.
+        </p>
+        <p>
+          Sharing arrangements is based on same lodging category choice and (as
+          much as possible) - on same authority. Sharing rooms is always part of
+          the fun! You meet your sisters and loving exciting connections are
+          often made and go with us after the retreat.
+        </p>
+        <p>
+          All prices include 3 delicious Mediterranean meals a day, made for us
+          by a private chef. Vegetarian breakfast and lunch, and an omnivore
+          dinner. Throughout the day, a coffee/tea cart, with snacks, will be
+          available.
+        </p>
+
+        <p>
+          {' '}
+          This is an invitation to an easy going, comfortable and pleasurable
+          forest autumn retreat, in fact, we believe - for a perfect experience!
+        </p>
+
         <h2>Room Options and Prices</h2>
         <p>
           <span className="font-bold">
             3 per room with shared bathrooms (not inside room)
             <br />
           </span>
-          Early bird until October 31st:{' '}
-          <span className="font-semibold">810€</span>
-          <br />
-          Price after October 31st: <span className="font-semibold">890€</span>
+          Price: <span className="font-semibold">890€</span>
         </p>
         <p>
           <span className="font-bold">
             3 per suite with private bathrooms and private terrace
             <br />
           </span>
-          Early bird until October 31st:{' '}
-          <span className="font-semibold">960€</span>
-          <br />
-          Price after October 31st: <span className="font-semibold">1056€</span>
+          Price: <span className="font-semibold">1056€</span>
         </p>
         <p>
           <span className="font-bold">
             2 per room with shared bathrooms (not inside room)
             <br />
           </span>
-          Early bird until October 31st:{' '}
-          <span className="font-semibold">960€</span>
-          <br />
-          Price after October 31st: <span className="font-semibold">1056€</span>
+          Price: <span className="font-semibold">1056€</span>
         </p>
         <p>
           <span className="font-bold">
             2 per double room with private bathroom
             <br />
           </span>
-          Early bird until October 31st:{' '}
-          <span className="font-semibold">1050€</span>
-          <br />
-          Price after October 31st: <span className="font-semibold">1155€</span>
+          Price: <span className="font-semibold">1155€</span>
         </p>
         <p>
           <span className="font-bold">
             2 per suite with private bathrooms and private terrace
             <br />
           </span>
-          Early bird until October 31st:{' '}
-          <span className="font-semibold">1120€</span>
-          <br />
-          Price after October 31st: <span className="font-semibold">1230€</span>
+          Price: <span className="font-semibold">1230€</span>
         </p>
         <p>
           <span className="font-bold">Single rooms with private bathroom</span>{' '}
           <br />
-          Early bird until October 31st:{' '}
-          <span className="font-semibold">1250€</span>
-          <br />
-          Price after October 31st: <span className="font-semibold">1380€</span>
+          Price: <span className="font-semibold">1380€</span>
         </p>
         <p>*Payment plans available.</p>
         <p>
