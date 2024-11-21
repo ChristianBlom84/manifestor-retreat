@@ -182,7 +182,8 @@ export default function Home() {
               <Image src={friday} alt="Friday" />
               <ul>
                 <li>
-                  <span className="font-semibold">08:00</span> Yoga/Chi Kong
+                  <span className="font-semibold">08:00</span> Yoga/morning
+                  movement
                 </li>
                 <li>
                   <span className="font-semibold">09:00</span> Breakfast
@@ -224,7 +225,8 @@ export default function Home() {
               <Image src={saturday} alt="Saturday" />
               <ul>
                 <li>
-                  <span className="font-semibold">08:00</span> Yoga/Chi Kong
+                  <span className="font-semibold">08:00</span> Yoga/morning
+                  movement
                 </li>
                 <li>
                   <span className="font-semibold">09:00</span> Breakfast
@@ -269,7 +271,8 @@ export default function Home() {
               <Image src={sunday} alt="Sunday" />
               <ul>
                 <li>
-                  <span className="font-semibold">08:00</span> Yoga/Chi Kong
+                  <span className="font-semibold">08:00</span> Yoga/morning
+                  movement
                 </li>
                 <li>
                   <span className="font-semibold">09:00</span> Breakfast
